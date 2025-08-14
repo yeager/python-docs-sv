@@ -23,16 +23,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Program Frameworks"
-msgstr "Ramverk för program"
+msgstr ""
 
 msgid ""
 "The modules described in this chapter are frameworks that will largely "
 "dictate the structure of your program.  Currently the modules described  "
 "here are all oriented toward writing command-line interfaces."
 msgstr ""
-"De moduler som beskrivs i detta kapitel är ramverk som till stor del kommer "
-"att diktera strukturen på ditt program.  För närvarande är de moduler som "
-"beskrivs här alla inriktade på att skriva kommandoradsgränssnitt."
 
 msgid "The full list of modules described in this chapter is:"
-msgstr "Den fullständiga listan över moduler som beskrivs i detta kapitel är:"
+msgstr ""
