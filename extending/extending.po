@@ -447,6 +447,8 @@ msgid ""
 "Py_INCREF(Py_None);\n"
 "return Py_None;"
 msgstr ""
+"Py_INCREF(Py_None);\n"
+"return Py_None;"
 
 msgid ""
 ":c:data:`Py_None` is the C name for the special Python object ``None``.  It "

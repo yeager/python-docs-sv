@@ -207,7 +207,7 @@ msgid ":class:`DOMImplementation`"
 msgstr ""
 
 msgid ":ref:`dom-implementation-objects`"
-msgstr ""
+msgstr ":ref:`dom-implementation-objects`"
 
 msgid "Interface to the underlying implementation."
 msgstr ""
@@ -216,7 +216,7 @@ msgid ":class:`Node`"
 msgstr ""
 
 msgid ":ref:`dom-node-objects`"
-msgstr ""
+msgstr ":ref:`dom-node-objects`"
 
 msgid "Base interface for most objects in a document."
 msgstr ""
@@ -243,7 +243,7 @@ msgid ":class:`Document`"
 msgstr ""
 
 msgid ":ref:`dom-document-objects`"
-msgstr ""
+msgstr ":ref:`dom-document-objects`"
 
 msgid "Object which represents an entire document."
 msgstr ""
@@ -252,7 +252,7 @@ msgid ":class:`Element`"
 msgstr ""
 
 msgid ":ref:`dom-element-objects`"
-msgstr ""
+msgstr ":ref:`dom-element-objects`"
 
 msgid "Element nodes in the document hierarchy."
 msgstr ""
@@ -261,7 +261,7 @@ msgid ":class:`Attr`"
 msgstr ""
 
 msgid ":ref:`dom-attr-objects`"
-msgstr ""
+msgstr ":ref:`dom-attr-objects`"
 
 msgid "Attribute value nodes on element nodes."
 msgstr ""
@@ -270,7 +270,7 @@ msgid ":class:`Comment`"
 msgstr ""
 
 msgid ":ref:`dom-comment-objects`"
-msgstr ""
+msgstr ":ref:`dom-comment-objects`"
 
 msgid "Representation of comments in the source document."
 msgstr ""
@@ -279,7 +279,7 @@ msgid ":class:`Text`"
 msgstr ""
 
 msgid ":ref:`dom-text-objects`"
-msgstr ""
+msgstr ":ref:`dom-text-objects`"
 
 msgid "Nodes containing textual content from the document."
 msgstr ""
@@ -288,7 +288,7 @@ msgid ":class:`ProcessingInstruction`"
 msgstr ""
 
 msgid ":ref:`dom-pi-objects`"
-msgstr ""
+msgstr ":ref:`dom-pi-objects`"
 
 msgid "Processing instruction representation."
 msgstr ""
@@ -523,6 +523,14 @@ msgid ""
 "for the document, the document's :attr:`doctype` attribute will be set to "
 "``None`` instead of an instance of this interface."
 msgstr ""
+"Information om de notationer och enheter som deklareras av ett dokument "
+"(inklusive den externa delmängden om parsern använder den och kan "
+"tillhandahålla informationen) finns tillgänglig från ett :class:"
+"`DocumentType`\\-objekt. :class:`DocumentType` för ett dokument finns "
+"tillgängligt från :class:`Document`\\-objektets :attr:`doctype`-attribut; om "
+"det inte finns någon ``DOCTYPE``\\-deklaration för dokumentet kommer "
+"dokumentets :attr:`doctype`\\-attribut att sättas till ``None`` istället för "
+"en instans av detta gränssnitt."
 
 msgid ""
 ":class:`DocumentType` is a specialization of :class:`Node`, and adds the "

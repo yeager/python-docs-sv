@@ -441,7 +441,7 @@ msgid "Default Memory Allocators"
 msgstr ""
 
 msgid "Default memory allocators:"
-msgstr ""
+msgstr "Standardminnesallokatorer:"
 
 msgid "Configuration"
 msgstr ""

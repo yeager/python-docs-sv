@@ -543,11 +543,14 @@ msgstr ""
 
 msgid "*executable* parameter accepts a :term:`path-like object` on POSIX."
 msgstr ""
+"Parametern *executable* accepterar en :term:`path-like object` på POSIX."
 
 msgid ""
 "*executable* parameter accepts a bytes and :term:`path-like object` on "
 "Windows."
 msgstr ""
+"Parametern *executable* accepterar en byte och :term:`path-like object` på "
+"Windows."
 
 msgid ""
 "*stdin*, *stdout* and *stderr* specify the executed program's standard "
@@ -631,7 +634,7 @@ msgid "*cwd* parameter accepts a :term:`path-like object` on POSIX."
 msgstr ""
 
 msgid "*cwd* parameter accepts a :term:`path-like object` on Windows."
-msgstr ""
+msgstr "Parametern *cwd* accepterar en :term:`path-like object` på Windows."
 
 msgid "*cwd* parameter accepts a bytes object on Windows."
 msgstr ""

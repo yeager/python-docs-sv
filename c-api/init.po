@@ -2109,7 +2109,7 @@ msgid ":c:data:`PyTrace_CALL`"
 msgstr ""
 
 msgid "Always :c:data:`Py_None`."
-msgstr ""
+msgstr "Alltid :c:data:`Py_None`."
 
 msgid ":c:data:`PyTrace_EXCEPTION`"
 msgstr ""

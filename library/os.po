@@ -3793,7 +3793,7 @@ msgid ""
 msgstr ""
 
 msgid "Accepts a :term:`path-like object` for *path* and *attribute*."
-msgstr ""
+msgstr "Accepterar en :term:`path-like object` för *path* och *attribute*."
 
 msgid ""
 "Return a list of the extended filesystem attributes on *path*.  The "

@@ -3588,7 +3588,7 @@ msgid "The documentation for the :mod:`ssl` module."
 msgstr ""
 
 msgid "Deprecations and Removals"
-msgstr ""
+msgstr "Utfasningar och borttagningar"
 
 msgid ""
 "String exceptions have been removed.  Attempting to use them raises a :exc:"

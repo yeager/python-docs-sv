@@ -335,7 +335,7 @@ msgid "The ``'x'`` (exclusive creation) mode was added."
 msgstr ""
 
 msgid "The *name* parameter accepts a :term:`path-like object`."
-msgstr ""
+msgstr "Parametern *name* accepterar en :term:`path-like object`."
 
 msgid "The *compresslevel* keyword argument also works for streams."
 msgstr ""
@@ -694,7 +694,7 @@ msgid "Added the *numeric_owner* parameter."
 msgstr ""
 
 msgid "The *path* parameter accepts a :term:`path-like object`."
-msgstr ""
+msgstr "Parametern *path* accepterar en :term:`path-like object`."
 
 msgid "Added the *filter* parameter."
 msgstr ""

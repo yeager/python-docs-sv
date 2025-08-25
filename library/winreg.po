@@ -131,7 +131,7 @@ msgid ""
 msgstr ""
 
 msgid "*This method can not delete keys with subkeys.*"
-msgstr ""
+msgstr "*Den här metoden kan inte radera nycklar med undernycklar.*"
 
 msgid ""
 "If the method succeeds, the entire key, including all of its values, is "

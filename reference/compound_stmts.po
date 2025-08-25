@@ -757,7 +757,7 @@ msgid ":ref:`capture-patterns`"
 msgstr ""
 
 msgid ":ref:`wildcard-patterns`"
-msgstr ""
+msgstr ":ref:`wildcard-patterns`"
 
 msgid "parenthesized irrefutable patterns"
 msgstr ""

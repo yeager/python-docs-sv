@@ -78,7 +78,7 @@ msgid "Get the *frame* code."
 msgstr ""
 
 msgid "Return a :term:`strong reference`."
-msgstr ""
+msgstr "Returnera en :term:`strong reference`."
 
 msgid "The result (frame code) cannot be ``NULL``."
 msgstr ""

@@ -278,7 +278,7 @@ msgid ""
 msgstr ""
 
 msgid "The *file* parameter accepts a :term:`path-like object`."
-msgstr ""
+msgstr "Parametern *file* accepterar en :term:`path-like object`."
 
 msgid "Add the *compresslevel* parameter."
 msgstr ""
@@ -413,7 +413,7 @@ msgid ""
 msgstr ""
 
 msgid "The *path* parameter accepts a :term:`path-like object`."
-msgstr ""
+msgstr "Parametern *path* accepterar en :term:`path-like object`."
 
 msgid ""
 "Extract all members from the archive to the current working directory.  "
@@ -810,7 +810,7 @@ msgid ""
 msgstr ""
 
 msgid "The *filename* parameter accepts a :term:`path-like object`."
-msgstr ""
+msgstr "Parametern *filename* accepterar en :term:`path-like object`."
 
 msgid "Added the *strict_timestamps* keyword-only parameter."
 msgstr ""
@@ -1015,6 +1015,9 @@ msgid ""
 "example, decompression bombs (aka `ZIP bomb`_) apply to zipfile library that "
 "can cause disk volume exhaustion."
 msgstr ""
+"Bristen på minne eller diskvolym skulle leda till att dekompressionen "
+"misslyckas. Till exempel gäller dekompressionsbomber (aka `ZIP bomb`_) för "
+"zipfile-bibliotek som kan orsaka diskvolymutmattning."
 
 msgid "Interruption"
 msgstr ""

@@ -3110,7 +3110,7 @@ msgid ":c:macro:`!Py_UNICODE_strcmp()`: use :c:func:`PyUnicode_Compare`"
 msgstr ""
 
 msgid ":c:macro:`!Py_UNICODE_strncmp()`: use :c:func:`PyUnicode_Tailmatch`"
-msgstr ""
+msgstr ":c:macro:`!Py_UNICODE_strncmp()`: använd :c:func:`PyUnicode_Tailmatch`"
 
 msgid ""
 ":c:macro:`!Py_UNICODE_strchr()`, :c:macro:`!Py_UNICODE_strrchr()`: use :c:"

@@ -495,7 +495,7 @@ msgid ""
 msgstr ""
 
 msgid ":pep:`768`."
-msgstr ""
+msgstr ":pep:`768`."
 
 msgid "PEP 784: Adding Zstandard to the standard library"
 msgstr ""
@@ -547,7 +547,7 @@ msgid ""
 msgstr ""
 
 msgid ":pep:`784`."
-msgstr ""
+msgstr ":pep:`784`."
 
 msgid "Remote attaching to a running Python process with PDB"
 msgstr ""
@@ -1286,7 +1286,7 @@ msgid ""
 msgstr ""
 
 msgid ":pep:`744`"
-msgstr ""
+msgstr ":pep:`744`"
 
 msgid "Concurrent safe warnings control"
 msgstr ""

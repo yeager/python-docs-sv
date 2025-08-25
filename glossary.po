@@ -1301,7 +1301,7 @@ msgid ""
 msgstr ""
 
 msgid ":ref:`finders-and-loaders`"
-msgstr ""
+msgstr ":ref:`finders-and-loaders`"
 
 msgid ":class:`importlib.abc.Loader`"
 msgstr ""
@@ -1420,7 +1420,7 @@ msgid ""
 msgstr ""
 
 msgid "See also :ref:`module-specs`."
-msgstr ""
+msgstr "Se även :ref:`module-specs`."
 
 msgid "MRO"
 msgstr ""

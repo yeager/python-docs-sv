@@ -203,7 +203,7 @@ msgid "Borrowed reference API"
 msgstr ""
 
 msgid "Strong reference API"
-msgstr ""
+msgstr "API för stark referens"
 
 msgid ":c:func:`PyList_GetItem`"
 msgstr ""

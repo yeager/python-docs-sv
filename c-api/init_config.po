@@ -508,7 +508,7 @@ msgid "``\"optimization_level\"``"
 msgstr ""
 
 msgid ":c:member:`optimization_level <PyConfig.optimization_level>`"
-msgstr ""
+msgstr ":c:member:`optimization_level <PyConfig.optimization_level>`"
 
 msgid "``\"orig_argv\"``"
 msgstr ""
@@ -2483,7 +2483,7 @@ msgid ":c:member:`PyConfig.exec_prefix`"
 msgstr ""
 
 msgid ":c:member:`PyConfig.executable`"
-msgstr ""
+msgstr ":c:member:`PyConfig.executable`"
 
 msgid ""
 ":c:member:`PyConfig.module_search_paths_set`, :c:member:`PyConfig."

@@ -1728,9 +1728,11 @@ msgid ""
 "The object's index in the globals/builtins namespace is cached. Loading "
 "globals and builtins require zero namespace lookups."
 msgstr ""
+"Objektets index i namnrymdens globals/builtins är cachat. Inläsning av "
+"globaler och builtins kräver inga namnrymdsuppslagningar."
 
 msgid "[#load-global]_"
-msgstr ""
+msgstr "[#load-global]_"
 
 msgid "Mark Shannon"
 msgstr ""
@@ -1921,7 +1923,7 @@ msgid ""
 msgstr ""
 
 msgid ":opcode:`MAKE_CELL`, to create :ref:`cell-objects`."
-msgstr ""
+msgstr ":opcode:`MAKE_CELL`, för att skapa :ref:`cell-objects`."
 
 msgid ""
 ":opcode:`CHECK_EG_MATCH`  and  :opcode:`!PREP_RERAISE_STAR`, to handle the :"
@@ -3207,7 +3209,7 @@ msgid ":c:func:`PyFrame_GetLocals`"
 msgstr ""
 
 msgid ":c:type:`PyFrame_Type`"
-msgstr ""
+msgstr ":c:type:`PyFrame_Type`"
 
 msgid "(Contributed by Victor Stinner in :gh:`93937`.)"
 msgstr ""
@@ -3260,7 +3262,7 @@ msgid ""
 msgstr ""
 
 msgid "``f_lineno``: use :c:func:`PyFrame_GetLineNumber`"
-msgstr ""
+msgstr "``f_lineno``: använd :c:func:`PyFrame_GetLineNumber`"
 
 msgid "``f_locals``: use :c:func:`PyFrame_GetLocals`."
 msgstr ""
