@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-23 14:15+0000\n"
+"POT-Creation-Date: 2025-08-25 14:20+0000\n"
 "PO-Revision-Date: 2025-08-02 17:34+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>, 2025\n"
 "Language-Team: Swedish (https://app.transifex.com/python-doc/teams/5390/"
@@ -271,16 +271,16 @@ msgid ":ref:`sqlite3-howtos` for further reading:"
 msgstr ""
 
 msgid ":ref:`sqlite3-placeholders`"
-msgstr ""
+msgstr ":ref:`sqlite3-placeholders`"
 
 msgid ":ref:`sqlite3-adapters`"
-msgstr ""
+msgstr ":ref:`sqlite3-adapters`"
 
 msgid ":ref:`sqlite3-converters`"
-msgstr ""
+msgstr ":ref:`sqlite3-converters`"
 
 msgid ":ref:`sqlite3-connection-context-manager`"
-msgstr ""
+msgstr ":ref:`sqlite3-connection-context-manager`"
 
 msgid ":ref:`sqlite3-howto-row-factory`"
 msgstr ""
@@ -654,7 +654,7 @@ msgid ""
 msgstr ""
 
 msgid ":ref:`sqlite3-connection-shortcuts`"
-msgstr ""
+msgstr ":ref:`sqlite3-connection-shortcuts`"
 
 msgid ""
 "A :exc:`ResourceWarning` is emitted if :meth:`close` is not called before a :"
@@ -1184,7 +1184,7 @@ msgid ""
 msgstr ""
 
 msgid ":ref:`sqlite3-howto-encoding`"
-msgstr ""
+msgstr ":ref:`sqlite3-howto-encoding`"
 
 msgid "Added the *filter* parameter."
 msgstr ""
