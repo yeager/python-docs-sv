@@ -1128,7 +1128,7 @@ msgid ""
 msgstr ""
 
 msgid "python -m pip install more-itertools"
-msgstr ""
+msgstr "python -m pip install more-itertools"
 
 msgid ""
 "Many of the recipes offer the same high performance as the underlying "

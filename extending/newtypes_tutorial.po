@@ -359,7 +359,7 @@ msgid "in a file called :file:`setup.py`; then typing"
 msgstr ""
 
 msgid "$ python -m pip install ."
-msgstr ""
+msgstr "$ python -m pip install ."
 
 msgid ""
 "in a shell should produce a file :file:`custom.so` in a subdirectory and "
