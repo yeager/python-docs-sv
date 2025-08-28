@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-25 14:20+0000\n"
+"POT-Creation-Date: 2025-08-27 14:18+0000\n"
 "PO-Revision-Date: 2025-08-02 17:35+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>, 2025\n"
 "Language-Team: Swedish (https://app.transifex.com/python-doc/teams/5390/"
@@ -24,16 +24,16 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Changelog"
-msgstr ""
+msgstr "Ändringslogg"
 
 msgid "Python next"
-msgstr ""
+msgstr "Python next"
 
 msgid "*Release date: XXXX-XX-XX*"
-msgstr ""
+msgstr "*Utgivningsdatum: XXXX-XX-XX*"
 
 msgid "Tools/Demos"
-msgstr ""
+msgstr "Verktyg/Demos"
 
 msgid ""
 ":gh:`137873`: The iOS test runner has been simplified, resolving some issues "
@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 
 msgid "Library"
-msgstr ""
+msgstr "Bibliotek"
 
 msgid ""
 ":gh:`134869`: Fix an issue where pressing Ctrl+C during tab completion in "
@@ -55,6 +55,11 @@ msgstr ""
 msgid ""
 ":gh:`137384`: Fix a crash when using the :mod:`warnings` module in a "
 "finalizer at shutdown. Patch by Kumar Aditya."
+msgstr ""
+
+msgid ""
+":gh:`137883`: Fix runaway recursion when calling a function with keyword "
+"arguments."
 msgstr ""
 
 msgid ""
@@ -71,10 +76,10 @@ msgid "Python 3.14.0 release candidate 2"
 msgstr ""
 
 msgid "*Release date: 2025-08-14*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2025-08-14*"
 
 msgid "macOS"
-msgstr ""
+msgstr "macOS"
 
 msgid ""
 ":gh:`137450`: macOS installer shell path management improvements: separate "
@@ -87,7 +92,7 @@ msgid ""
 msgstr ""
 
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 msgid ":gh:`137134`: Update Windows installer to ship with SQLite 3.50.4."
 msgstr ""
@@ -138,11 +143,12 @@ msgid ""
 msgstr ""
 
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentation"
 
 msgid ""
 ":gh:`136155`: We are now checking for fatal errors in EPUB builds in CI."
 msgstr ""
+":gh:`136155`: Vi kontrollerar nu för allvarliga fel i EPUB-byggen i CI."
 
 msgid ""
 ":gh:`137400`: Fix a crash in the :term:`free threading` build when disabling "
@@ -187,7 +193,7 @@ msgid ""
 msgstr ""
 
 msgid "C API"
-msgstr ""
+msgstr "C API"
 
 msgid ""
 ":gh:`137573`: Mark ``_PyOptimizer_Optimize`` as :c:macro:`Py_NO_INLINE` to "
@@ -204,7 +210,7 @@ msgid "Python 3.14.0 release candidate 1"
 msgstr ""
 
 msgid "*Release date: 2025-07-22*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2025-07-22*"
 
 msgid ""
 ":gh:`136251`: Fixes and usability improvements for ``Tools/wasm/emscripten/"
@@ -212,7 +218,7 @@ msgid ""
 msgstr ""
 
 msgid "Security"
-msgstr ""
+msgstr "Säkerhet"
 
 msgid ""
 ":gh:`135661`: Fix parsing attributes with whitespaces around the ``=`` "
@@ -372,10 +378,10 @@ msgid ""
 msgstr ""
 
 msgid "Python 3.14.0 beta 4"
-msgstr ""
+msgstr "Python 3.14.0 beta 4"
 
 msgid "*Release date: 2025-07-08*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2025-07-08*"
 
 msgid ""
 ":gh:`135968`: Stubs for ``strip`` are now provided as part of an iOS install."
@@ -667,7 +673,7 @@ msgid "Python 3.14.0 beta 3"
 msgstr ""
 
 msgid "*Release date: 2025-06-17*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2025-06-17*"
 
 msgid ""
 ":gh:`135099`: Fix a crash that could occur on Windows when a background "
@@ -988,7 +994,7 @@ msgid "Python 3.14.0 beta 2"
 msgstr ""
 
 msgid "*Release date: 2025-05-26*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2025-05-26*"
 
 msgid ""
 ":gh:`130727`: Fix a race in internal calls into WMI that can result in an "
@@ -1403,7 +1409,7 @@ msgid "Python 3.14.0 beta 1"
 msgstr ""
 
 msgid "*Release date: 2025-05-06*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2025-05-06*"
 
 msgid ""
 ":gh:`132930`: Marks the installer for Windows as deprecated and updates "
@@ -2558,7 +2564,7 @@ msgid "Python 3.14.0 alpha 7"
 msgstr ""
 
 msgid "*Release date: 2025-04-08*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2025-04-08*"
 
 msgid ":gh:`124111`: Update macOS installer to use Tcl/Tk 8.6.16."
 msgstr ""
@@ -3079,7 +3085,7 @@ msgid "Python 3.14.0 alpha 6"
 msgstr ""
 
 msgid "*Release date: 2025-03-14*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2025-03-14*"
 
 msgid ""
 ":gh:`128540`: Ensure web browser is launched by :func:`webbrowser.open` on "
@@ -3926,7 +3932,7 @@ msgid "Python 3.14.0 alpha 5"
 msgstr ""
 
 msgid "*Release date: 2025-02-11*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2025-02-11*"
 
 msgid ":gh:`91132`: Update macOS installer to use ncurses 6.5."
 msgstr ""
@@ -4686,7 +4692,7 @@ msgid "Python 3.14.0 alpha 4"
 msgstr ""
 
 msgid "*Release date: 2025-01-14*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2025-01-14*"
 
 msgid ""
 ":gh:`127592`: Usage of the unified Apple System Log APIs was disabled when "
@@ -5140,7 +5146,7 @@ msgid "Python 3.14.0 alpha 3"
 msgstr ""
 
 msgid "*Release date: 2024-12-17*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2024-12-17*"
 
 msgid ""
 ":gh:`127353`: Allow to force color output on Windows using environment "
@@ -5777,7 +5783,7 @@ msgid "Python 3.14.0 alpha 2"
 msgstr ""
 
 msgid "*Release date: 2024-11-19*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2024-11-19*"
 
 msgid ":gh:`126911`: Update credits command output."
 msgstr ""
@@ -6736,7 +6742,7 @@ msgid "Python 3.14.0 alpha 1"
 msgstr ""
 
 msgid "*Release date: 2024-10-15*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2024-10-15*"
 
 msgid ":gh:`124448`: Update bundled Tcl/Tk in macOS installer to 8.6.15."
 msgstr ""
@@ -10371,7 +10377,7 @@ msgid "Python 3.13.0 beta 1"
 msgstr ""
 
 msgid "*Release date: 2024-05-08*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2024-05-08*"
 
 msgid ":gh:`116741`: Update bundled libexpat to 2.6.2"
 msgstr ""
@@ -11301,7 +11307,7 @@ msgid "Python 3.13.0 alpha 6"
 msgstr ""
 
 msgid "*Release date: 2024-04-09*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2024-04-09*"
 
 msgid ""
 ":gh:`117494`: Refactored the instruction sequence data structure out of "
@@ -12014,7 +12020,7 @@ msgid "Python 3.13.0 alpha 5"
 msgstr ""
 
 msgid "*Release date: 2024-03-12*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2024-03-12*"
 
 msgid ""
 ":gh:`115398`: Allow controlling Expat >=2.6.0 reparse deferral (:cve:"
@@ -12028,13 +12034,13 @@ msgid ":meth:`xml.etree.ElementTree.XMLPullParser.flush`"
 msgstr ""
 
 msgid ":meth:`xml.parsers.expat.xmlparser.GetReparseDeferralEnabled`"
-msgstr ""
+msgstr ":meth:`xml.parsers.expat.xmlparser.GetReparseDeferralEnabled`"
 
 msgid ":meth:`xml.parsers.expat.xmlparser.SetReparseDeferralEnabled`"
-msgstr ""
+msgstr ":meth:`xml.parsers.expat.xmlparser.SetReparseDeferralEnabled`"
 
 msgid ":meth:`xml.sax.expatreader.ExpatParser.flush`"
-msgstr ""
+msgstr ":meth:`xml.sax.expatreader.ExpatParser.flush`"
 
 msgid ""
 ":gh:`114572`: :meth:`ssl.SSLContext.cert_store_stats` and :meth:`ssl."
@@ -12639,7 +12645,7 @@ msgid "Python 3.13.0 alpha 4"
 msgstr ""
 
 msgid "*Release date: 2024-02-15*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2024-02-15*"
 
 msgid ":gh:`115399`: Update bundled libexpat to 2.6.0"
 msgstr ""
@@ -13421,7 +13427,7 @@ msgid "Python 3.13.0 alpha 3"
 msgstr ""
 
 msgid "*Release date: 2024-01-17*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2024-01-17*"
 
 msgid ""
 ":gh:`113659`: Skip ``.pth`` files with names starting with a dot or hidden "
@@ -14708,7 +14714,7 @@ msgid "Python 3.13.0 alpha 2"
 msgstr ""
 
 msgid "*Release date: 2023-11-22*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2023-11-22*"
 
 msgid ""
 ":gh:`112243`: Don't include comments in f-string debug expressions. Patch by "
@@ -15698,7 +15704,7 @@ msgid "Python 3.13.0 alpha 1"
 msgstr ""
 
 msgid "*Release date: 2023-10-13*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2023-10-13*"
 
 msgid ""
 ":gh:`108310`: Fixed an issue where instances of :class:`ssl.SSLSocket` were "
@@ -19413,7 +19419,7 @@ msgid "Python 3.12.0 beta 1"
 msgstr ""
 
 msgid "*Release date: 2023-05-22*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2023-05-22*"
 
 msgid ""
 ":gh:`99889`: Fixed a security in flaw in :func:`!uu.decode` that could allow "
@@ -20720,7 +20726,7 @@ msgid "Python 3.12.0 alpha 7"
 msgstr ""
 
 msgid "*Release date: 2023-04-04*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2023-04-04*"
 
 msgid ""
 ":gh:`102192`: Deprecated ``_PyErr_ChainExceptions`` in favour of "
@@ -21114,7 +21120,7 @@ msgid "Python 3.12.0 alpha 6"
 msgstr ""
 
 msgid "*Release date: 2023-03-07*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2023-03-07*"
 
 msgid ""
 ":gh:`99108`: Replace builtin hashlib implementations of MD5 and SHA1 with "
@@ -21295,6 +21301,9 @@ msgid ""
 "exc:`~urllib.error.HTTPError` is initialized without a designated ``fp`` "
 "parameter. Patch by Long Vo."
 msgstr ""
+":gh:`101936`: Standardvärdet för ``fp`` blir :class:`io.BytesIO` om :exc:"
+"`~urllib.error.HTTPError` initialiseras utan en angiven ``fp``\\-parameter. "
+"Patch av Long Vo."
 
 msgid ""
 ":gh:`101566`: In zipfile, sync Path with `zipp 3.14 <https://zipp."
@@ -21559,7 +21568,7 @@ msgid "Python 3.12.0 alpha 5"
 msgstr ""
 
 msgid "*Release date: 2023-02-07*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2023-02-07*"
 
 msgid ""
 ":gh:`99108`: Replace the builtin :mod:`hashlib` implementations of SHA2-224 "
@@ -21916,7 +21925,7 @@ msgid "Python 3.12.0 alpha 4"
 msgstr ""
 
 msgid "*Release date: 2023-01-10*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2023-01-10*"
 
 msgid ""
 ":gh:`100776`: Fix misleading default value in :func:`input`'s "
@@ -22520,7 +22529,7 @@ msgid "Python 3.12.0 alpha 3"
 msgstr ""
 
 msgid "*Release date: 2022-12-06*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2022-12-06*"
 
 msgid ""
 ":gh:`100001`: ``python -m http.server`` no longer allows terminal control "
@@ -22987,7 +22996,7 @@ msgid "Python 3.12.0 alpha 2"
 msgstr ""
 
 msgid "*Release date: 2022-11-14*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2022-11-14*"
 
 msgid ""
 ":gh:`98433`: The IDNA codec decoder used on DNS hostnames by :mod:`socket` "
@@ -23593,7 +23602,7 @@ msgid "Python 3.12.0 alpha 1"
 msgstr ""
 
 msgid "*Release date: 2022-10-25*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2022-10-25*"
 
 msgid ""
 ":gh:`97616`: Fix multiplying a list by an integer (``list *= int``): detect "
@@ -26076,6 +26085,8 @@ msgid ""
 ":gh:`92240`: Added release dates for \"What's New in Python 3.X\" for 3.0, "
 "3.1, 3.2, 3.8 and 3.10"
 msgstr ""
+":gh:`92240`: Lade till utgivningsdatum för \"Vad är nytt i Python 3.X\" för "
+"3.0, 3.1, 3.2, 3.8 och 3.10"
 
 msgid ""
 ":issue:`47161`: Document that :class:`pathlib.PurePath` does not collapse "
@@ -26388,7 +26399,7 @@ msgid ""
 msgstr ""
 
 msgid ":gh:`94682`: Build and test with OpenSSL 1.1.1q"
-msgstr ""
+msgstr ":gh:`94682`: Bygg och testa med OpenSSL 1.1.1q"
 
 msgid ""
 ":gh:`90005`: Dependencies of :mod:`readline` and :mod:`curses` module are "
@@ -26491,7 +26502,7 @@ msgid ":gh:`97649`: The ``Tools`` directory is no longer installed on Windows"
 msgstr ""
 
 msgid ":gh:`96965`: Update libffi to 3.4.3"
-msgstr ""
+msgstr ":gh:`96965`: Uppdatera libffi till 3.4.3"
 
 msgid ":gh:`96577`: Fixes a potential buffer overrun in :mod:`!msilib`."
 msgstr ""
@@ -26934,7 +26945,7 @@ msgid "Python 3.11.0 beta 1"
 msgstr ""
 
 msgid "*Release date: 2022-05-06*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2022-05-06*"
 
 msgid ""
 ":gh:`57684`: Add the :option:`-P` command line option and the :envvar:"
@@ -28049,7 +28060,7 @@ msgid "Python 3.11.0 alpha 7"
 msgstr ""
 
 msgid "*Release date: 2022-04-05*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2022-04-05*"
 
 msgid ""
 ":issue:`47212`: Raise :exc:`IndentationError` instead of :exc:`SyntaxError` "
@@ -28814,6 +28825,8 @@ msgid ""
 ":issue:`47171`: Enables installing the :file:`py.exe` launcher on Windows "
 "ARM64."
 msgstr ""
+":issue:`47171`: Möjliggör installation av startprogrammet :file:`py.exe` på "
+"Windows ARM64."
 
 msgid ""
 ":issue:`46566`: Upgraded :ref:`launcher` to support a new ``-V:company/tag`` "
@@ -28897,16 +28910,16 @@ msgid ""
 msgstr ""
 
 msgid "``_PyEval_GetAsyncGenFirstiter()``"
-msgstr ""
+msgstr "``_PyEval_GetAsyncGenFirstiter()``"
 
 msgid "``_PyEval_GetAsyncGenFinalizer()``"
-msgstr ""
+msgstr "``_PyEval_GetAsyncGenFinalizer()``"
 
 msgid "``_PyEval_SetAsyncGenFirstiter()``"
-msgstr ""
+msgstr "``_PyEval_SetAsyncGenFirstiter()``"
 
 msgid "``_PyEval_SetAsyncGenFinalizer()``"
-msgstr ""
+msgstr "``_PyEval_SetAsyncGenFinalizer()``"
 
 msgid ""
 "Call the public :func:`sys.get_asyncgen_hooks` and :func:`sys."
@@ -28926,10 +28939,10 @@ msgid ""
 msgstr ""
 
 msgid "Python 3.11.0 alpha 6"
-msgstr ""
+msgstr "Python 3.11.0 alpha 6"
 
 msgid "*Release date: 2022-03-07*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2022-03-07*"
 
 msgid ""
 ":issue:`46940`: Avoid overriding :exc:`AttributeError` metadata information "
@@ -29084,7 +29097,7 @@ msgid ""
 msgstr ""
 
 msgid "There is no change in semantics."
-msgstr ""
+msgstr "Det sker ingen förändring i semantiken."
 
 msgid ""
 ":issue:`46762`: Fix an assert failure in debug builds when a '<', '>', or "
@@ -29207,7 +29220,7 @@ msgid ""
 msgstr ""
 
 msgid ":issue:`46811`: Make test suite support Expat >=2.4.5"
-msgstr ""
+msgstr ":issue:`46811`: Gör så att testsviten stöder Expat >=2.4.5"
 
 msgid ""
 ":issue:`46252`: Raise :exc:`TypeError` if :class:`ssl.SSLSocket` is passed "
@@ -29569,7 +29582,7 @@ msgid "Python 3.11.0 alpha 5"
 msgstr ""
 
 msgid "*Release date: 2022-02-03*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2022-02-03*"
 
 msgid ""
 ":issue:`45773`: Remove two invalid \"peephole\" optimizations from the "
@@ -30109,7 +30122,7 @@ msgid "Python 3.11.0 alpha 4"
 msgstr ""
 
 msgid "*Release date: 2022-01-13*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2022-01-13*"
 
 msgid ""
 ":issue:`46070`: :c:func:`Py_EndInterpreter` now explicitly untracks all "
@@ -30434,6 +30447,8 @@ msgid ""
 ":issue:`45321`: Added missing error codes to module ``xml.parsers.expat."
 "errors``."
 msgstr ""
+":issue:`45321`: Lagt till saknade felkoder i modulen ``xml.parsers.expat."
+"errors``."
 
 msgid ""
 ":issue:`46125`: Refactor tests to test traversable API directly. Includes "
@@ -30748,7 +30763,7 @@ msgid "Python 3.11.0 alpha 3"
 msgstr ""
 
 msgid "*Release date: 2021-12-08*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2021-12-08*"
 
 msgid ""
 ":issue:`46009`: Restore behavior from 3.9 and earlier when sending non-None "
@@ -31351,6 +31366,9 @@ msgid ""
 ":issue:`45800`: Settings for :mod:`pyexpat` C extension are now detected by "
 "``configure``. The bundled ``expat`` library is built in ``Makefile``."
 msgstr ""
+":issue:`45800`: Inställningar för :mod:`pyexpat` C-tillägget detekteras nu "
+"av ``configure``. Det medföljande ``expat``\\-biblioteket är inbyggt i "
+"``Makefile``."
 
 msgid ""
 ":issue:`45798`: Settings for :mod:`decimal` internal C extension are now "
@@ -31459,7 +31477,7 @@ msgid "Python 3.11.0 alpha 2"
 msgstr ""
 
 msgid "*Release date: 2021-11-05*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2021-11-05*"
 
 msgid ""
 ":issue:`45716`: Improve the :exc:`SyntaxError` message when using ``True``, "
@@ -32231,7 +32249,7 @@ msgid "Python 3.11.0 alpha 1"
 msgstr ""
 
 msgid "*Release date: 2021-10-05*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2021-10-05*"
 
 msgid ""
 ":issue:`42278`: Replaced usage of :func:`tempfile.mktemp` with :class:"
@@ -35013,7 +35031,7 @@ msgid ""
 msgstr ""
 
 msgid "Patch by Gabriele N. Tornetta"
-msgstr ""
+msgstr "Patch av Gabriele N. Tornetta"
 
 msgid ""
 ":issue:`44441`: :c:func:`Py_RunMain` now resets :c:data:`PyImport_Inittab` "
@@ -35031,19 +35049,19 @@ msgid ""
 msgstr ""
 
 msgid "Removed functions:"
-msgstr ""
+msgstr "Borttagna funktioner:"
 
 msgid "_PyTrash_deposit_object()"
-msgstr ""
+msgstr "_PyTrash_deposit_object()"
 
 msgid "_PyTrash_destroy_chain()"
-msgstr ""
+msgstr "_PyTrash_destroy_chain()"
 
 msgid "_PyTrash_thread_deposit_object()"
-msgstr ""
+msgstr "_PyTrash_thread_deposit_object()"
 
 msgid "_PyTrash_thread_destroy_chain()"
-msgstr ""
+msgstr "_PyTrash_thread_destroy_chain()"
 
 msgid ""
 "The trashcan C API was never usable with the limited C API, since old "
@@ -35160,7 +35178,7 @@ msgid "Python 3.10.0 beta 1"
 msgstr ""
 
 msgid "*Release date: 2021-05-03*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2021-05-03*"
 
 msgid ""
 ":issue:`43434`: Creating :class:`sqlite3.Connection` objects now also "
@@ -35399,11 +35417,14 @@ msgid ""
 ":issue:`43751`: Fixed a bug where ``anext(ait, default)`` would erroneously "
 "return None."
 msgstr ""
+":issue:`43751`: Fixade en bugg där ``anext(ait, default)`` felaktigt "
+"returnerade None."
 
 msgid ""
 ":issue:`42128`: :data:`~object.__match_args__` is no longer allowed to be a "
 "list."
 msgstr ""
+":issue:`42128`: :data:`~object.__match_args__` får inte längre vara en lista."
 
 msgid ""
 ":issue:`43683`: Add GEN_START opcode. Marks start of generator, including "
@@ -36171,7 +36192,7 @@ msgid "Python 3.10.0 alpha 7"
 msgstr ""
 
 msgid "*Release date: 2021-04-05*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2021-04-05*"
 
 msgid ""
 ":issue:`42988`: :cve:`2021-3426`: Remove the ``getfile`` feature of the :mod:"
@@ -36795,7 +36816,7 @@ msgid "Python 3.10.0 alpha 6"
 msgstr ""
 
 msgid "*Release date: 2021-03-01*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2021-03-01*"
 
 msgid ""
 ":issue:`42967`: Fix web cache poisoning vulnerability by defaulting the "
@@ -37100,7 +37121,7 @@ msgid "Python 3.10.0 alpha 5"
 msgstr ""
 
 msgid "*Release date: 2021-02-02*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2021-02-02*"
 
 msgid ""
 ":issue:`42938`: Avoid static buffers when computing the repr of :class:"
@@ -37471,7 +37492,7 @@ msgid "Python 3.10.0 alpha 4"
 msgstr ""
 
 msgid "*Release date: 2021-01-04*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2021-01-04*"
 
 msgid ""
 ":issue:`42814`: Fix undefined behavior in ``Objects/genericaliasobject.c``."
@@ -37993,7 +38014,7 @@ msgid "Python 3.10.0 alpha 3"
 msgstr ""
 
 msgid "*Release date: 2020-12-07*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2020-12-07*"
 
 msgid ""
 ":issue:`40791`: Add ``volatile`` to the accumulator variable in ``hmac."
@@ -38818,7 +38839,7 @@ msgid "Python 3.10.0 alpha 2"
 msgstr ""
 
 msgid "*Release date: 2020-11-03*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2020-11-03*"
 
 msgid ""
 ":issue:`42103`: Prevented potential DoS attack via CPU and RAM exhaustion "
@@ -39308,7 +39329,7 @@ msgid "Python 3.10.0 alpha 1"
 msgstr ""
 
 msgid "*Release date: 2020-10-05*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2020-10-05*"
 
 msgid ""
 ":issue:`41304`: Fixes ``python3x._pth`` being ignored on Windows, caused by "
@@ -39845,6 +39866,11 @@ msgid ""
 "a loss (e.g. that have the :meth:`~object.__int__` method but do not have "
 "the :meth:`~object.__index__` method)."
 msgstr ""
+":issue:`37999`: Inbyggda funktioner och tilläggsfunktioner som tar "
+"heltalsargument accepterar inte längre :class:`~decimal.Decimal`, :class:"
+"`~fractions.Fraction` och andra objekt som kan konverteras till heltal "
+"endast med förlust (t.ex. som har metoden :meth:`~object.__int__` men inte "
+"har metoden :meth:`~object.__index__`)."
 
 msgid ""
 ":issue:`29882`: Add :meth:`int.bit_count`, counting the number of ones in "
@@ -41106,7 +41132,7 @@ msgid "Python 3.9.0 beta 1"
 msgstr ""
 
 msgid "*Release date: 2020-05-19*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2020-05-19*"
 
 msgid ""
 ":issue:`40501`: :mod:`uuid` no longer uses :mod:`ctypes` to load :file:"
@@ -41628,7 +41654,7 @@ msgid "Python 3.9.0 alpha 6"
 msgstr ""
 
 msgid "*Release date: 2020-04-27*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2020-04-27*"
 
 msgid ":issue:`40121`: Fixes audit events raised on creating a new socket."
 msgstr ""
@@ -42269,7 +42295,7 @@ msgid "Python 3.9.0 alpha 5"
 msgstr ""
 
 msgid "*Release date: 2020-03-23*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2020-03-23*"
 
 msgid ""
 ":issue:`38576`: Disallow control characters in hostnames in http.client, "
@@ -42982,7 +43008,7 @@ msgid "Python 3.9.0 alpha 4"
 msgstr ""
 
 msgid "*Release date: 2020-02-25*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2020-02-25*"
 
 msgid ""
 ":issue:`39184`: Add audit events to functions in ``fcntl``, ``msvcrt``, "
@@ -43485,7 +43511,7 @@ msgid "Python 3.9.0 alpha 3"
 msgstr ""
 
 msgid "*Release date: 2020-01-24*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2020-01-24*"
 
 msgid ""
 ":issue:`39427`: Document all possibilities for the ``-X`` options in the "
@@ -44004,7 +44030,7 @@ msgid "Python 3.9.0 alpha 2"
 msgstr ""
 
 msgid "*Release date: 2019-12-18*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2019-12-18*"
 
 msgid ""
 ":issue:`38945`: Newline characters have been escaped when performing uu "
@@ -44543,7 +44569,7 @@ msgid "Python 3.9.0 alpha 1"
 msgstr ""
 
 msgid "*Release date: 2019-11-19*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2019-11-19*"
 
 msgid ""
 ":issue:`38722`: :mod:`runpy` now uses :meth:`io.open_code` to open code "
@@ -45976,7 +46002,7 @@ msgid ""
 msgstr ""
 
 msgid ":issue:`37437`: Update vendorized expat version to 2.2.7."
-msgstr ""
+msgstr ":issue:`37437`: Uppdatera vendorized expat-versionen till 2.2.7."
 
 msgid ""
 ":issue:`37428`: SSLContext.post_handshake_auth = True no longer sets "
@@ -46789,6 +46815,9 @@ msgid ""
 "``test_python_*`` directories of previous failed jobs. Add \"make "
 "cleantest\" to run ``python3 -m test --cleanup``."
 msgstr ""
+":issue:`37359`: Lägg till alternativet --cleanup till python3 -m test för "
+"att ta bort ``test_python_*``\\-kataloger från tidigare misslyckade jobb. "
+"Lägg till ”make cleantest” för att köra ``python3 -m test --cleanup``."
 
 msgid ""
 ":issue:`37362`: test_gdb no longer fails if it gets an \"unexpected\" "
@@ -47553,7 +47582,7 @@ msgid "Python 3.8.0 beta 1"
 msgstr ""
 
 msgid "*Release date: 2019-06-04*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2019-06-04*"
 
 msgid ""
 ":issue:`35907`: :cve:`2019-9948`: Avoid file reading by disallowing ``local-"
@@ -48661,7 +48690,7 @@ msgid "Python 3.8.0 alpha 4"
 msgstr ""
 
 msgid "*Release date: 2019-05-06*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2019-05-06*"
 
 msgid ""
 ":issue:`36742`: Fixes mishandling of pre-normalization characters in "
@@ -49431,7 +49460,7 @@ msgid "Python 3.8.0 alpha 3"
 msgstr ""
 
 msgid "*Release date: 2019-03-25*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2019-03-25*"
 
 msgid ""
 ":issue:`36216`: Changes urlsplit() to raise ValueError when the URL contains "
@@ -49878,7 +49907,7 @@ msgid "Python 3.8.0 alpha 2"
 msgstr ""
 
 msgid "*Release date: 2019-02-25*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2019-02-25*"
 
 msgid ""
 ":issue:`36052`: Raise a :exc:`SyntaxError` when assigning a value to "
@@ -50173,7 +50202,7 @@ msgid "Python 3.8.0 alpha 1"
 msgstr ""
 
 msgid "*Release date: 2019-02-03*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2019-02-03*"
 
 msgid ""
 ":issue:`35746`: :cve:`2019-5010`: Fix a NULL pointer deref in ssl module. "
@@ -52869,10 +52898,12 @@ msgid ""
 msgstr ""
 
 msgid ":issue:`33266`: lib2to3 now recognizes ``rf'...'`` strings."
-msgstr ""
+msgstr ":issue:`33266`: lib2to3 känner nu igen ``rf'...'``\\-strängar."
 
 msgid ":issue:`11594`: Ensure line-endings are respected when using lib2to3."
 msgstr ""
+":issue:`11594`: Säkerställ att radavslut respekteras vid användning av "
+"lib2to3."
 
 msgid ""
 ":issue:`33254`: Have :func:`importlib.resources.contents` and :meth:"
@@ -53298,10 +53329,10 @@ msgid ""
 msgstr ""
 
 msgid ":issue:`32741`: Implement ``asyncio.TimerHandle.when()`` method."
-msgstr ""
+msgstr ":issue:`32741`: Implementera metoden ``asyncio.TimerHandle.when()``."
 
 msgid ":issue:`32691`: Use mod_spec.parent when running modules with pdb"
-msgstr ""
+msgstr ":issue:`32691`: Använd mod_spec.parent när moduler körs med pdb"
 
 msgid ""
 ":issue:`32734`: Fixed ``asyncio.Lock()`` safety issue which allowed "
@@ -53320,6 +53351,10 @@ msgid ""
 "archive.org/web/20180309043602/https://www.openssl.org/docs/man1.1.0/ssl/"
 "SSL_CTX_set_min_proto_version.html feature."
 msgstr ""
+":issue:`31453`: Lägg till TLSVersion-konstanter och SSLContext."
+"maximum_version / minimum_version-attribut. Det nya API:et omsluter OpenSSL "
+"1.1 https://web.archive.org/web/20180309043602/https://www.openssl.org/docs/"
+"man1.1.0/ssl/SSL_CTX_set_min_proto_version.html-funktionen."
 
 msgid ""
 ":issue:`24334`: Internal implementation details of ssl module were cleaned "
@@ -53337,6 +53372,8 @@ msgid ""
 ":issue:`32585`: Add Ttk spinbox widget to :mod:`tkinter.ttk`.  Patch by Alan "
 "D Moore."
 msgstr ""
+":issue:`32585`: Lägg till Ttk spinbox-widget till :mod:`tkinter.ttk`.  Patch "
+"av Alan D Moore."
 
 msgid ""
 ":issue:`32512`: :mod:`profile` CLI accepts ``-m module_name`` as an "
@@ -53350,7 +53387,7 @@ msgid ""
 msgstr ""
 
 msgid "Patch by Sanyam Khurana."
-msgstr ""
+msgstr "Patch av Sanyam Khurana."
 
 msgid ""
 ":issue:`31639`: http.server now exposes a ThreadingHTTPServer class and uses "
@@ -53375,6 +53412,8 @@ msgid ""
 ":issue:`32147`: :func:`binascii.unhexlify` is now up to 2 times faster. "
 "Patch by Sergey Fedoseev."
 msgstr ""
+":issue:`32147`: :func:`binascii.unhexlify` är nu upp till 2 gånger snabbare. "
+"Patch av Sergey Fedoseev."
 
 msgid ""
 ":issue:`30693`: The TarFile class now recurses directories in a reproducible "
@@ -53387,7 +53426,7 @@ msgid ""
 msgstr ""
 
 msgid ":issue:`31680`: Added :data:`curses.ncurses_version`."
-msgstr ""
+msgstr ":issue:`31680`: Lade till :data:`curses.ncurses_version`."
 
 msgid ""
 ":issue:`31908`: Fix output of cover files for ``trace`` module command-line "
@@ -53589,6 +53628,8 @@ msgstr ""
 msgid ""
 ":issue:`33378`: Add Korean language switcher for https://docs.python.org/3/"
 msgstr ""
+":issue:`33378`: Lägg till koreansk språkväxlare för https://docs.python."
+"org/3/"
 
 msgid ""
 ":issue:`33276`: Clarify that the ``__path__`` attribute on modules cannot be "
@@ -53644,7 +53685,7 @@ msgid ":issue:`32800`: Update link to w3c doc for xml default namespaces."
 msgstr ""
 
 msgid ":issue:`11015`: Update :mod:`test.support` documentation."
-msgstr ""
+msgstr ":issue:`11015`: Uppdatera dokumentation för :mod:`test.support`."
 
 msgid ""
 ":issue:`32613`: Update the faq/windows.html to use the py command from PEP "
@@ -54809,7 +54850,7 @@ msgid "Python 3.7.0 final"
 msgstr ""
 
 msgid "*Release date: 2018-06-27*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2018-06-27*"
 
 msgid ""
 ":issue:`33851`: Fix :func:`ast.get_docstring` for a node that lacks a "
@@ -54825,13 +54866,13 @@ msgid "Python 3.7.0 release candidate 1"
 msgstr ""
 
 msgid "*Release date: 2018-06-12*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2018-06-12*"
 
 msgid "Python 3.7.0 beta 5"
 msgstr ""
 
 msgid "*Release date: 2018-05-30*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2018-05-30*"
 
 msgid ""
 ":issue:`20104`: The new ``os.posix_spawn`` added in 3.7.0b1 was removed as "
@@ -54860,7 +54901,7 @@ msgid "Python 3.7.0 beta 4"
 msgstr ""
 
 msgid "*Release date: 2018-05-02*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2018-05-02*"
 
 msgid ""
 ":issue:`33185`: Fixed regression when running pydoc with the :option:`-m` "
@@ -54878,7 +54919,7 @@ msgid "Python 3.7.0 beta 3"
 msgstr ""
 
 msgid "*Release date: 2018-03-29*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2018-03-29*"
 
 msgid ""
 ":issue:`33041`: Fixed jumping when the function contains an ``async for`` "
@@ -54895,7 +54936,7 @@ msgid "Python 3.7.0 beta 2"
 msgstr ""
 
 msgid "*Release date: 2018-02-27*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2018-02-27*"
 
 msgid ""
 ":issue:`25988`: Emit a :exc:`DeprecationWarning` when using or importing an "
@@ -54918,7 +54959,7 @@ msgid "Python 3.7.0 beta 1"
 msgstr ""
 
 msgid "*Release date: 2018-01-30*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2018-01-30*"
 
 msgid ""
 ":issue:`32703`: Fix coroutine's ResourceWarning when there's an active error "
@@ -55369,7 +55410,7 @@ msgid "Python 3.7.0 alpha 4"
 msgstr ""
 
 msgid "*Release date: 2018-01-08*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2018-01-08*"
 
 msgid ""
 ":issue:`31975`: The default warning filter list now starts with a \"default::"
@@ -55805,7 +55846,7 @@ msgid "Python 3.7.0 alpha 3"
 msgstr ""
 
 msgid "*Release date: 2017-12-05*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2017-12-05*"
 
 msgid ""
 ":issue:`32176`: co_flags.CO_NOFREE is now always set correctly by the code "
@@ -56668,7 +56709,7 @@ msgid "Python 3.7.0 alpha 2"
 msgstr ""
 
 msgid "*Release date: 2017-10-16*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2017-10-16*"
 
 msgid ""
 ":issue:`31558`: ``gc.freeze()`` is a new API that allows for moving all "
@@ -57028,7 +57069,7 @@ msgid "Python 3.7.0 alpha 1"
 msgstr ""
 
 msgid "*Release date: 2017-09-19*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2017-09-19*"
 
 msgid ""
 ":issue:`29781`: SSLObject.version() now correctly returns None when "
@@ -60331,7 +60372,7 @@ msgid "Python 3.6.6 release candidate 1"
 msgstr ""
 
 msgid "*Release date: 2018-06-11*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2018-06-11*"
 
 msgid ":issue:`33184`: Update Windows installer to OpenSSL 1.0.2o."
 msgstr ""
@@ -60348,13 +60389,13 @@ msgid "Python 3.6.5 final"
 msgstr ""
 
 msgid "*Release date: 2018-03-28*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2018-03-28*"
 
 msgid "Python 3.6.5 release candidate 1"
 msgstr ""
 
 msgid "*Release date: 2018-03-13*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2018-03-13*"
 
 msgid ""
 ":issue:`32329`: ``sys.flags.hash_randomization`` is now properly set to 0 "
@@ -60407,7 +60448,7 @@ msgid "Python 3.6.4 final"
 msgstr ""
 
 msgid "*Release date: 2017-12-18*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2017-12-18*"
 
 msgid "There were no new code changes in version 3.6.4 since v3.6.4rc1."
 msgstr ""
@@ -60434,7 +60475,7 @@ msgid "Python 3.6.3 final"
 msgstr ""
 
 msgid "*Release date: 2017-10-03*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2017-10-03*"
 
 msgid ""
 ":issue:`31641`: Re-allow arbitrary iterables in ``concurrent.futures."
@@ -60455,13 +60496,13 @@ msgid "Python 3.6.3 release candidate 1"
 msgstr ""
 
 msgid "*Release date: 2017-09-18*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2017-09-18*"
 
 msgid "Python 3.6.2 final"
 msgstr ""
 
 msgid "*Release date: 2017-07-17*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2017-07-17*"
 
 msgid "No changes since release candidate 2"
 msgstr ""
@@ -60470,13 +60511,13 @@ msgid "Python 3.6.2 release candidate 2"
 msgstr ""
 
 msgid "*Release date: 2017-07-07*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2017-07-07*"
 
 msgid "Python 3.6.2 release candidate 1"
 msgstr ""
 
 msgid "*Release date: 2017-06-17*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2017-06-17*"
 
 msgid ""
 ":issue:`30604`: Move co_extra_freefuncs to not be per-thread to avoid crashes"
@@ -60514,7 +60555,7 @@ msgid "Python 3.6.1 final"
 msgstr ""
 
 msgid "*Release date: 2017-03-21*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2017-03-21*"
 
 msgid ":issue:`27593`: fix format of git information used in sys.version"
 msgstr ""
@@ -60526,7 +60567,7 @@ msgid "Python 3.6.1 release candidate 1"
 msgstr ""
 
 msgid "*Release date: 2017-03-04*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2017-03-04*"
 
 msgid ""
 ":issue:`29519`: Fix weakref spewing exceptions during interpreter shutdown "
@@ -60627,13 +60668,13 @@ msgid "Python 3.6.0 final"
 msgstr ""
 
 msgid "*Release date: 2016-12-23*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2016-12-23*"
 
 msgid "Python 3.6.0 release candidate 2"
 msgstr ""
 
 msgid "*Release date: 2016-12-16*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2016-12-16*"
 
 msgid ""
 ":issue:`28990`: Fix asyncio SSL hanging if connection is closed before "
@@ -60654,7 +60695,7 @@ msgid "Python 3.6.0 release candidate 1"
 msgstr ""
 
 msgid "*Release date: 2016-12-06*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2016-12-06*"
 
 msgid ""
 ":issue:`27030`: Unknown escapes in re.sub() replacement template are allowed "
@@ -60675,7 +60716,7 @@ msgid "Python 3.6.0 beta 4"
 msgstr ""
 
 msgid "*Release date: 2016-11-21*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2016-11-21*"
 
 msgid ""
 ":issue:`27243`: Change PendingDeprecationWarning -> DeprecationWarning. As "
@@ -60729,7 +60770,7 @@ msgid "Python 3.6.0 beta 3"
 msgstr ""
 
 msgid "*Release date: 2016-10-31*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2016-10-31*"
 
 msgid ""
 ":issue:`28471`: Fix \"Python memory allocator called without holding the "
@@ -60775,7 +60816,7 @@ msgid "Python 3.6.0 beta 2"
 msgstr ""
 
 msgid "*Release date: 2016-10-10*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2016-10-10*"
 
 msgid ""
 ":issue:`28376`: Creating instances of range_iterator by calling "
@@ -60800,7 +60841,7 @@ msgid "Python 3.6.0 beta 1"
 msgstr ""
 
 msgid "*Release date: 2016-09-12*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2016-09-12*"
 
 msgid ""
 ":issue:`23722`: The __class__ cell used by zero-argument super() is now "
@@ -61573,7 +61614,7 @@ msgid "Python 3.6.0 alpha 4"
 msgstr ""
 
 msgid "*Release date: 2016-08-15*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2016-08-15*"
 
 msgid ""
 ":issue:`27704`: Optimized creating bytes and bytearray from byte-like "
@@ -61921,7 +61962,7 @@ msgid "Python 3.6.0 alpha 3"
 msgstr ""
 
 msgid "*Release date: 2016-07-11*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2016-07-11*"
 
 msgid ""
 ":issue:`27278`: Fix os.urandom() implementation using getrandom() on Linux. "
@@ -62199,7 +62240,7 @@ msgid "Python 3.6.0 alpha 2"
 msgstr ""
 
 msgid "*Release date: 2016-06-13*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2016-06-13*"
 
 msgid ":issue:`26556`: Update expat to 2.1.1, fixes :cve:`2015-1283`."
 msgstr ""
@@ -62607,7 +62648,7 @@ msgid "Python 3.6.0 alpha 1"
 msgstr ""
 
 msgid "*Release date: 2016-05-16*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2016-05-16*"
 
 msgid ""
 ":issue:`26657`: Fix directory traversal vulnerability with http.server on "
@@ -64606,7 +64647,7 @@ msgid "Python 3.5.5 final"
 msgstr ""
 
 msgid "*Release date: 2018-02-04*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2018-02-04*"
 
 msgid "There were no new changes in version 3.5.5."
 msgstr ""
@@ -64615,7 +64656,7 @@ msgid "Python 3.5.5 release candidate 1"
 msgstr ""
 
 msgid "*Release date: 2018-01-23*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2018-01-23*"
 
 msgid ""
 ":issue:`32551`: The ``sys.path[0]`` initialization change for :issue:`29139` "
@@ -64642,13 +64683,13 @@ msgid "Python 3.5.4 final"
 msgstr ""
 
 msgid "*Release date: 2017-08-07*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2017-08-07*"
 
 msgid "Python 3.5.4 release candidate 1"
 msgstr ""
 
 msgid "*Release date: 2017-07-23*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2017-07-23*"
 
 msgid ""
 ":issue:`29537`: Restore runtime compatibility with bytecode files generated "
@@ -64686,7 +64727,7 @@ msgid "Python 3.5.3 final"
 msgstr ""
 
 msgid "*Release date: 2017-01-17*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2017-01-17*"
 
 msgid "There were no code changes between 3.5.3rc1 and 3.5.3 final."
 msgstr ""
@@ -64695,7 +64736,7 @@ msgid "Python 3.5.3 release candidate 1"
 msgstr ""
 
 msgid "*Release date: 2017-01-02*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2017-01-02*"
 
 msgid ""
 ":issue:`29073`: bytearray formatting no longer truncates on first null byte."
@@ -64828,7 +64869,7 @@ msgid "Python 3.5.2 final"
 msgstr ""
 
 msgid "*Release date: 2016-06-26*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2016-06-26*"
 
 msgid ""
 ":issue:`26867`: Ubuntu's openssl OP_NO_SSLv3 is forced on by default; fix "
@@ -64843,7 +64884,7 @@ msgid "Python 3.5.2 release candidate 1"
 msgstr ""
 
 msgid "*Release date: 2016-06-12*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2016-06-12*"
 
 msgid ""
 ":issue:`27039`: Fixed bytearray.remove() for values greater than 127.  Patch "
@@ -64925,7 +64966,7 @@ msgid "Python 3.5.1 final"
 msgstr ""
 
 msgid "*Release date: 2015-12-06*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2015-12-06*"
 
 msgid ""
 ":issue:`25715`: Python 3.5.1 installer shows wrong upgrade path and "
@@ -64936,7 +64977,7 @@ msgid "Python 3.5.1 release candidate 1"
 msgstr ""
 
 msgid "*Release date: 2015-11-22*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2015-11-22*"
 
 msgid ""
 ":issue:`25182`: The stdprinter (used as sys.stderr before the io module is "
@@ -65250,7 +65291,7 @@ msgid "Python 3.5.0 final"
 msgstr ""
 
 msgid "*Release date: 2015-09-13*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2015-09-13*"
 
 msgid ""
 ":issue:`25071`: Windows installer should not require TargetDir parameter "
@@ -65261,7 +65302,7 @@ msgid "Python 3.5.0 release candidate 4"
 msgstr ""
 
 msgid "*Release date: 2015-09-09*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2015-09-09*"
 
 msgid ":issue:`25029`: Fixes MemoryError in test_strptime."
 msgstr ""
@@ -65275,7 +65316,7 @@ msgid "Python 3.5.0 release candidate 3"
 msgstr ""
 
 msgid "*Release date: 2015-09-07*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2015-09-07*"
 
 msgid ""
 ":issue:`24305`: Prevent import subsystem stack frames from being counted by "
@@ -65313,7 +65354,7 @@ msgid "Python 3.5.0 release candidate 2"
 msgstr ""
 
 msgid "*Release date: 2015-08-25*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2015-08-25*"
 
 msgid ""
 ":issue:`24769`: Interpreter now starts properly when dynamic loading is "
@@ -65344,7 +65385,7 @@ msgid "Python 3.5.0 release candidate 1"
 msgstr ""
 
 msgid "*Release date: 2015-08-09*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2015-08-09*"
 
 msgid ""
 ":issue:`24667`: Resize odict in all cases that the underlying dict resizes."
@@ -65465,7 +65506,7 @@ msgid "Python 3.5.0 beta 4"
 msgstr ""
 
 msgid "*Release date: 2015-07-26*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2015-07-26*"
 
 msgid ""
 ":issue:`23573`: Restored optimization of bytes.rfind() and bytearray.rfind() "
@@ -65581,7 +65622,7 @@ msgid "Python 3.5.0 beta 3"
 msgstr ""
 
 msgid "*Release date: 2015-07-05*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2015-07-05*"
 
 msgid ""
 ":issue:`24467`: Fixed possible buffer over-read in bytearray. The bytearray "
@@ -65718,7 +65759,7 @@ msgid "Python 3.5.0 beta 2"
 msgstr ""
 
 msgid "*Release date: 2015-05-31*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2015-05-31*"
 
 msgid ""
 ":issue:`24284`: The startswith and endswith methods of the str class no "
@@ -65774,7 +65815,7 @@ msgid "Python 3.5.0 beta 1"
 msgstr ""
 
 msgid "*Release date: 2015-05-24*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2015-05-24*"
 
 msgid ":issue:`24276`: Fixed optimization of property descriptor getter."
 msgstr ""
@@ -66190,7 +66231,7 @@ msgid "Python 3.5.0 alpha 4"
 msgstr ""
 
 msgid "*Release date: 2015-04-19*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2015-04-19*"
 
 msgid ""
 ":issue:`22980`: Under Linux, GNU/KFreeBSD and the Hurd, C extensions now "
@@ -66528,7 +66569,7 @@ msgid "Python 3.5.0 alpha 3"
 msgstr ""
 
 msgid "*Release date: 2015-03-28*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2015-03-28*"
 
 msgid ""
 ":issue:`23573`: Increased performance of string search operations (str.find, "
@@ -66796,7 +66837,7 @@ msgid "Python 3.5.0 alpha 2"
 msgstr ""
 
 msgid "*Release date: 2015-03-09*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2015-03-09*"
 
 msgid ""
 ":issue:`23571`: PyObject_Call() and PyCFunction_Call() now raise a "
@@ -66996,7 +67037,7 @@ msgid "Python 3.5.0 alpha 1"
 msgstr ""
 
 msgid "*Release date: 2015-02-08*"
-msgstr ""
+msgstr "*Utgivningsdatum: 2015-02-08*"
 
 msgid ":issue:`23285`: PEP 475 - EINTR handling."
 msgstr ""

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-25 14:20+0000\n"
+"POT-Creation-Date: 2025-08-27 14:18+0000\n"
 "PO-Revision-Date: 2025-08-02 17:35+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>, 2025\n"
 "Language-Team: Swedish (https://app.transifex.com/python-doc/teams/5390/"
@@ -200,6 +200,12 @@ msgid ""
 "$> py -m this\n"
 "..."
 msgstr ""
+"$> py\n"
+"...\n"
+"$> python my-script.py\n"
+"...\n"
+"$> py -m this\n"
+"..."
 
 msgid ""
 "The default runtime can be overridden with the :envvar:"
@@ -220,6 +226,8 @@ msgid ""
 "$> py -V:3.14 ...\n"
 "$> py -V:3-arm64 ..."
 msgstr ""
+"$> py -V:3.14 ...\n"
+"$> py -V:3-arm64 ..."
 
 msgid ""
 "Runtimes from other distributors may require the *company* to be included as "
@@ -233,6 +241,8 @@ msgid ""
 "$> py -V:Distributor\\1.0 ...\n"
 "$> py -V:distrib/ ..."
 msgstr ""
+"$> py -V:Distributor\\1.0 ...\n"
+"$> py -V:distrib/ ..."
 
 msgid ""
 "If no version is specified, but a script file is passed, the script will be "
@@ -273,6 +283,9 @@ msgid ""
 "$> py help install\n"
 "$> py install /?"
 msgstr ""
+"$> py help\n"
+"$> py help install\n"
+"$> py install /?"
 
 msgid ""
 "All commands support some common options, which will be shown by ``py "
@@ -295,6 +308,8 @@ msgid ""
 "$> py list [-f=|--format=<FMT>] [-1|--one] [--online|-s=|--source=<URL>] "
 "[<TAG>...]"
 msgstr ""
+"$> py list [-f=|--format=<FMT>] [-1|--one] [--online|-s=|--source=<URL>] "
+"[<TAG>...]"
 
 msgid ""
 "The list of installed runtimes can be seen using ``py list``. A filter may "
@@ -334,7 +349,7 @@ msgid ""
 msgstr ""
 
 msgid "$> py list --online 3.14"
-msgstr ""
+msgstr "$> py list --online 3.14"
 
 msgid ""
 "For compatibility with the old launcher, the ``--list``, ``--list-paths``, "
@@ -343,12 +358,14 @@ msgid ""
 msgstr ""
 
 msgid "Installing Runtimes"
-msgstr ""
+msgstr "Installera körtider"
 
 msgid ""
 "$> py install [-s=|--source=<URL>] [-f|--force] [-u|--update] [--dry-run] "
 "[<TAG>...]"
 msgstr ""
+"$> py install [-s=|--source=<URL>] [-f|--force] [-u|--update] [--dry-run] "
+"[<TAG>...]"
 
 msgid ""
 "New runtime versions may be added using ``py install``. One or more tags may "
@@ -388,7 +405,7 @@ msgid ""
 msgstr ""
 
 msgid "$> py install ... [-t=|--target=<PATH>] <TAG>"
-msgstr ""
+msgstr "$> py install ... [-t=|--target=<PATH>] <TAG>"
 
 msgid "Offline Installs"
 msgstr ""
@@ -399,7 +416,7 @@ msgid ""
 msgstr ""
 
 msgid "$> py install --download=<PATH> ... <TAG>..."
-msgstr ""
+msgstr "$> py install --download=<PATH> ... <TAG>..."
 
 msgid ""
 "The ``--download=<PATH>`` option will download the packages for the listed "
@@ -409,7 +426,7 @@ msgid ""
 msgstr ""
 
 msgid "$> py install --source=\"<PATH>\\index.json\" <TAG>..."
-msgstr ""
+msgstr "$> py install --source=\"<PATH>\\index.json\" <TAG>..."
 
 msgid ""
 "The Python install manager can be installed by downloading its installer and "
@@ -434,7 +451,7 @@ msgid "Uninstalling Runtimes"
 msgstr ""
 
 msgid "$> py uninstall [-y|--yes] <TAG>..."
-msgstr ""
+msgstr "$> py uninstall [-y|--yes] <TAG>..."
 
 msgid ""
 "Runtimes may be removed using the ``py uninstall`` command. One or more tags "
@@ -454,7 +471,7 @@ msgid ""
 msgstr ""
 
 msgid "$> py uninstall [-y|--yes] --purge"
-msgstr ""
+msgstr "$> py uninstall [-y|--yes] --purge"
 
 msgid ""
 "The Python install manager can be uninstalled through the Windows "
@@ -510,10 +527,10 @@ msgid "Description"
 msgstr ""
 
 msgid "``default_tag``"
-msgstr ""
+msgstr "``default_tag``"
 
 msgid "``PYTHON_MANAGER_DEFAULT``"
-msgstr ""
+msgstr "``PYTHON_MANAGER_DEFAULT``"
 
 msgid ""
 "The preferred default version to launch or install. By default, this is "
@@ -521,10 +538,10 @@ msgid ""
 msgstr ""
 
 msgid "``default_platform``"
-msgstr ""
+msgstr "``default_platform``"
 
 msgid "``PYTHON_MANAGER_DEFAULT_PLATFORM``"
-msgstr ""
+msgstr "``PYTHON_MANAGER_DEFAULT_PLATFORM``"
 
 msgid ""
 "The preferred default platform to launch or install. This is treated as a "
@@ -534,19 +551,19 @@ msgid ""
 msgstr ""
 
 msgid "``logs_dir``"
-msgstr ""
+msgstr "``logs_dir``"
 
 msgid "``PYTHON_MANAGER_LOGS``"
-msgstr ""
+msgstr "``PYTHON_MANAGER_LOGS``"
 
 msgid "The location where log files are written. By default, :file:`%TEMP%`."
 msgstr ""
 
 msgid "``automatic_install``"
-msgstr ""
+msgstr "``automatic_install``"
 
 msgid "``PYTHON_MANAGER_AUTOMATIC_INSTALL``"
-msgstr ""
+msgstr "``PYTHON_MANAGER_AUTOMATIC_INSTALL``"
 
 msgid ""
 "True to allow automatic installs when specifying a particular runtime to "
@@ -554,10 +571,10 @@ msgid ""
 msgstr ""
 
 msgid "``include_unmanaged``"
-msgstr ""
+msgstr "``include_unmanaged``"
 
 msgid "``PYTHON_MANAGER_INCLUDE_UNMANAGED``"
-msgstr ""
+msgstr "``PYTHON_MANAGER_INCLUDE_UNMANAGED``"
 
 msgid ""
 "True to allow listing and launching runtimes that were not installed by the "
@@ -565,10 +582,10 @@ msgid ""
 msgstr ""
 
 msgid "``shebang_can_run_anything``"
-msgstr ""
+msgstr "``shebang_can_run_anything``"
 
 msgid "``PYTHON_MANAGER_SHEBANG_CAN_RUN_ANYTHING``"
-msgstr ""
+msgstr "``PYTHON_MANAGER_SHEBANG_CAN_RUN_ANYTHING``"
 
 msgid ""
 "True to allow shebangs in ``.py`` files to launch applications other than "
@@ -576,10 +593,10 @@ msgid ""
 msgstr ""
 
 msgid "``log_level``"
-msgstr ""
+msgstr "``log_level``"
 
 msgid "``PYMANAGER_VERBOSE``, ``PYMANAGER_DEBUG``"
-msgstr ""
+msgstr "``PYMANAGER_VERBOSE``, ``PYMANAGER_DEBUG``"
 
 msgid ""
 "Set the default level of output (0-50). By default, 20. Lower values produce "
@@ -589,10 +606,10 @@ msgid ""
 msgstr ""
 
 msgid "``confirm``"
-msgstr ""
+msgstr "``confirm``"
 
 msgid "``PYTHON_MANAGER_CONFIRM``"
-msgstr ""
+msgstr "``PYTHON_MANAGER_CONFIRM``"
 
 msgid ""
 "True to confirm certain actions before taking them (such as uninstall), or "
@@ -600,19 +617,19 @@ msgid ""
 msgstr ""
 
 msgid "``install.source``"
-msgstr ""
+msgstr "``install.source``"
 
 msgid "``PYTHON_MANAGER_SOURCE_URL``"
-msgstr ""
+msgstr "``PYTHON_MANAGER_SOURCE_URL``"
 
 msgid "Override the index feed to obtain new installs from."
 msgstr ""
 
 msgid "``list.format``"
-msgstr ""
+msgstr "``list.format``"
 
 msgid "``PYTHON_MANAGER_LIST_FORMAT``"
-msgstr ""
+msgstr "``PYTHON_MANAGER_LIST_FORMAT``"
 
 msgid ""
 "Specify the default format used by the ``py list`` command. By default, "
@@ -642,25 +659,25 @@ msgid ""
 msgstr ""
 
 msgid "``/usr/bin/env <ALIAS>``"
-msgstr ""
+msgstr "``/usr/bin/env <ALIAS>``"
 
 msgid "``/usr/bin/env -S <ALIAS>``"
-msgstr ""
+msgstr "``/usr/bin/env -S <ALIAS>``"
 
 msgid "``/usr/bin/<ALIAS>``"
-msgstr ""
+msgstr "``/usr/bin/<ALIAS>``"
 
 msgid "``/usr/local/bin/<ALIAS>``"
-msgstr ""
+msgstr "``/usr/local/bin/<ALIAS>``"
 
 msgid "``<ALIAS>``"
-msgstr ""
+msgstr "``<ALIAS>``"
 
 msgid "For example, if the first line of your script starts with"
 msgstr ""
 
 msgid "#! /usr/bin/python"
-msgstr ""
+msgstr "#! /usr/bin/python"
 
 msgid ""
 "The default Python or an active virtual environment will be located and "
@@ -718,7 +735,7 @@ msgid ""
 msgstr ""
 
 msgid "Advanced Installation"
-msgstr ""
+msgstr "Avancerad installation"
 
 msgid ""
 "For situations where an MSIX cannot be installed, such as some older "
@@ -774,6 +791,11 @@ msgid ""
 "# Optionally run the configuration checker and accept all changes\n"
 "$> py install --configure -y"
 msgstr ""
+"$> winget install 9NQ7512CXL7T -e --accept-package-agreements --disable-"
+"interactivity\n"
+"\n"
+"# Valfritt, kör konfigurationskontrollen och acceptera alla ändringar\n"
+"$> py install --configure -y"
 
 msgid ""
 "To download the Python install manager and install on another machine, the "
@@ -788,6 +810,8 @@ msgid ""
 "$> winget download 9NQ7512CXL7T -e --skip-license --accept-package-"
 "agreements --accept-source-agreements"
 msgstr ""
+"$> winget download 9NQ7512CXL7T -e --skip-license --accept-package-"
+"agreements --accept-source-agreements"
 
 msgid ""
 "To programmatically install or uninstall an MSIX using only PowerShell, the "
@@ -801,6 +825,10 @@ msgid ""
 "$> Get-AppxPackage PythonSoftwareFoundation.PythonManager | Remove-"
 "AppxPackage"
 msgstr ""
+"$> Add-AppxPackage C:\\Downloads\\python-manager-25.0.msix\n"
+"...\n"
+"$> Get-AppxPackage PythonSoftwareFoundation.PythonManager | Remove-"
+"AppxPackage"
 
 msgid ""
 "The latest release can be downloaded and installed by Windows by passing the "
@@ -813,6 +841,8 @@ msgid ""
 "$> Add-AppxPackage -AppInstallerFile https://www.python.org/ftp/python/"
 "pymanager/pymanager.appinstaller"
 msgstr ""
+"$> Add-AppxPackage -AppInstallerFile https://www.python.org/ftp/python/"
+"pymanager/pymanager.appinstaller"
 
 msgid ""
 "Other tools and APIs may also be used to provision an MSIX package for all "
@@ -839,7 +869,7 @@ msgid ""
 msgstr ""
 
 msgid "Administrative Configuration"
-msgstr ""
+msgstr "Administrativ konfiguration"
 
 msgid ""
 "There are a number of options that may be useful for administrators to "
@@ -878,10 +908,10 @@ msgid ""
 msgstr ""
 
 msgid "Administrative configuration options"
-msgstr ""
+msgstr "Administrativa konfigurationsalternativ"
 
 msgid "``base_config``"
-msgstr ""
+msgstr "``base_config``"
 
 msgid ""
 "The highest priority configuration file to read. Note that only the built-in "
@@ -889,19 +919,19 @@ msgid ""
 msgstr ""
 
 msgid "``user_config``"
-msgstr ""
+msgstr "``user_config``"
 
 msgid "The second configuration file to read."
-msgstr ""
+msgstr "Den andra konfigurationsfilen som ska läsas."
 
 msgid "``additional_config``"
-msgstr ""
+msgstr "``additional_config``"
 
 msgid "The third configuration file to read."
-msgstr ""
+msgstr "Den tredje konfigurationsfilen som ska läsas."
 
 msgid "``registry_override_key``"
-msgstr ""
+msgstr "``registry_override_key``"
 
 msgid ""
 "Registry location to check for overrides. Note that only the built-in "
@@ -909,20 +939,20 @@ msgid ""
 msgstr ""
 
 msgid "``bundled_dir``"
-msgstr ""
+msgstr "``bundled_dir``"
 
 msgid "Read-only directory containing locally cached files."
 msgstr ""
 
 msgid "``install.fallback_source``"
-msgstr ""
+msgstr "``install.fallback_source``"
 
 msgid ""
 "Path or URL to an index to consult when the main index cannot be accessed."
 msgstr ""
 
 msgid "``install.enable_shortcut_kinds``"
-msgstr ""
+msgstr "``install.enable_shortcut_kinds``"
 
 msgid ""
 "Comma-separated list of shortcut kinds to allow (e.g. ``\"pep514,start\"``). "
@@ -930,7 +960,7 @@ msgid ""
 msgstr ""
 
 msgid "``install.disable_shortcut_kinds``"
-msgstr ""
+msgstr "``install.disable_shortcut_kinds``"
 
 msgid ""
 "Comma-separated list of shortcut kinds to exclude (e.g. ``\"pep514,"
@@ -939,7 +969,7 @@ msgid ""
 msgstr ""
 
 msgid "``pep514_root``"
-msgstr ""
+msgstr "``pep514_root``"
 
 msgid ""
 "Registry location to read and write PEP 514 entries into. By default, :file:"
@@ -947,7 +977,7 @@ msgid ""
 msgstr ""
 
 msgid "``start_folder``"
-msgstr ""
+msgstr "``start_folder``"
 
 msgid ""
 "Start menu folder to write shortcuts into. By default, ``Python``. This path "
@@ -955,7 +985,7 @@ msgid ""
 msgstr ""
 
 msgid "``virtual_env``"
-msgstr ""
+msgstr "``virtual_env``"
 
 msgid ""
 "Path to the active virtual environment. By default, this is "
@@ -963,7 +993,7 @@ msgid ""
 msgstr ""
 
 msgid "``shebang_can_run_anything_silently``"
-msgstr ""
+msgstr "``shebang_can_run_anything_silently``"
 
 msgid ""
 "True to suppress visible warnings when a shebang launches an application "
@@ -971,10 +1001,10 @@ msgid ""
 msgstr ""
 
 msgid "Installing Free-threaded Binaries"
-msgstr ""
+msgstr "Installera fritt trådade binärfiler"
 
 msgid "(Experimental)"
-msgstr ""
+msgstr "(Experimentell)"
 
 msgid ""
 "Everything described in this section is considered experimental, and should "
@@ -1001,7 +1031,7 @@ msgid ""
 msgstr ""
 
 msgid "Troubleshooting"
-msgstr ""
+msgstr "Felsökning"
 
 msgid ""
 "If your Python install manager does not seem to be working correctly, please "
@@ -1012,10 +1042,10 @@ msgid ""
 msgstr ""
 
 msgid "Symptom"
-msgstr ""
+msgstr "Symtom"
 
 msgid "Things to try"
-msgstr ""
+msgstr "Saker att prova"
 
 msgid ""
 "``python`` gives me a \"command not found\" error or opens the Store app "
@@ -1023,7 +1053,7 @@ msgid ""
 msgstr ""
 
 msgid "Did you :ref:`install the Python install manager <pymanager>`?"
-msgstr ""
+msgstr "Har du :ref:`installerat Pythons installationshanterare <pymanager>`?"
 
 msgid ""
 "Click Start, open \"Manage app execution aliases\", and check that the "
@@ -1038,6 +1068,8 @@ msgstr ""
 msgid ""
 "``py`` gives me a \"command not found\" error when I type it in my terminal."
 msgstr ""
+"``py`` ger mig ett \"command not found\"-fel när jag skriver det i min "
+"terminal."
 
 msgid ""
 "``py`` gives me a \"can't open file\" error when I type commands in my "
@@ -1112,7 +1144,7 @@ msgid ""
 msgstr ""
 
 msgid "The embeddable package"
-msgstr ""
+msgstr "Det inbäddningsbara paketet"
 
 msgid ""
 "The embedded distribution is a ZIP file containing a minimal Python "
@@ -1126,7 +1158,7 @@ msgid ""
 msgstr ""
 
 msgid "$> py install 3.14-embed --target=runtime"
-msgstr ""
+msgstr "$> py install 3.14-embed --target=runtime"
 
 msgid ""
 "When extracted, the embedded distribution is (almost) fully isolated from "
@@ -1196,7 +1228,7 @@ msgid ""
 msgstr ""
 
 msgid "Embedding Python"
-msgstr ""
+msgstr "Inbäddning av Python"
 
 msgid ""
 "Applications written in native code often require some form of scripting "
@@ -1216,7 +1248,7 @@ msgid ""
 msgstr ""
 
 msgid "The nuget.org packages"
-msgstr ""
+msgstr "Paket från nuget.org"
 
 msgid ""
 "The nuget.org package is a reduced size Python environment intended for use "
@@ -1242,6 +1274,8 @@ msgid ""
 "nuget.exe install python -ExcludeVersion -OutputDirectory .\n"
 "nuget.exe install pythonx86 -ExcludeVersion -OutputDirectory ."
 msgstr ""
+"nuget.exe install python -ExcludeVersion -OutputDirectory .\n"
+"nuget.exe install pythonx86 -ExcludeVersion -OutputDirectory ."
 
 msgid ""
 "To select a particular version, add a ``-Version 3.x.y``. The output "
@@ -1261,6 +1295,13 @@ msgid ""
 "> .\\python\\tools\\python.exe -V\n"
 "Python 3.5.2"
 msgstr ""
+"# Utan -ExcludeVersion\n"
+"> .\\python.3.5.2\\tools\\python.exe -V\n"
+"Python 3.5.2\n"
+"\n"
+"# Med -ExcludeVersion\n"
+"> .\\python\\tools\\python.exe -V\n"
+"Python 3.5.2"
 
 msgid ""
 "In general, nuget packages are not upgradeable, and newer versions should be "
@@ -1285,7 +1326,7 @@ msgid ""
 msgstr ""
 
 msgid "Free-threaded packages"
-msgstr ""
+msgstr "Fritt trådade paket"
 
 msgid ""
 "Packages containing free-threaded binaries are named `python-freethreaded "
@@ -1298,7 +1339,7 @@ msgid ""
 msgstr ""
 
 msgid "Alternative bundles"
-msgstr ""
+msgstr "Alternativa paketeringar"
 
 msgid ""
 "Besides the standard CPython distribution, there are modified packages "
@@ -1307,13 +1348,13 @@ msgid ""
 msgstr ""
 
 msgid "`ActivePython <https://www.activestate.com/products/python/>`_"
-msgstr ""
+msgstr "`ActivePython <https://www.activestate.com/products/python/>`_"
 
 msgid "Installer with multi-platform compatibility, documentation, PyWin32"
 msgstr ""
 
 msgid "`Anaconda <https://www.anaconda.com/download/>`_"
-msgstr ""
+msgstr "`Anaconda <https://www.anaconda.com/download/>`_"
 
 msgid ""
 "Popular scientific modules (such as numpy, scipy and pandas) and the "
@@ -1323,6 +1364,7 @@ msgstr ""
 msgid ""
 "`Enthought Deployment Manager <https://assets.enthought.com/downloads/edm/>`_"
 msgstr ""
+"`Enthought Deployment Manager <https://assets.enthought.com/downloads/edm/>`_"
 
 msgid "\"The Next Generation Python Environment and Package Manager\"."
 msgstr ""
@@ -1333,9 +1375,13 @@ msgid ""
 "of-life-transition-to-the-Enthought-Deployment-Manager-EDM-and-Visual-Studio-"
 "Code>`_."
 msgstr ""
+"Tidigare tillhandahöll Enthought Canopy, men det `nådde slutet av sin "
+"livslängd 2016 <https://support.enthought.com/hc/en-us/articles/360038600051-"
+"Canopy-GUI-end-of-life-transition-to-the-Enthought-Deployment-Manager-EDM-"
+"and-Visual-Studio-Code>`_."
 
 msgid "`WinPython <https://winpython.github.io/>`_"
-msgstr ""
+msgstr "`WinPython <https://winpython.github.io/>`_"
 
 msgid ""
 "Windows-specific distribution with prebuilt scientific packages and tools "
@@ -1348,7 +1394,7 @@ msgid ""
 msgstr ""
 
 msgid "Supported Windows versions"
-msgstr ""
+msgstr "Windows-versioner som stöds"
 
 msgid ""
 "As specified in :pep:`11`, a Python release only supports a Windows platform "
@@ -1359,7 +1405,7 @@ msgid ""
 msgstr ""
 
 msgid "Removing the MAX_PATH Limitation"
-msgstr ""
+msgstr "Ta bort begränsningen MAX_PATH"
 
 msgid ""
 "Windows historically has limited path lengths to 260 characters. This meant "
@@ -1385,7 +1431,7 @@ msgid ""
 msgstr ""
 
 msgid "UTF-8 mode"
-msgstr ""
+msgstr "UTF-8-läge"
 
 msgid ""
 "Windows still uses legacy encodings for the system encoding (the ANSI Code "
@@ -1433,7 +1479,7 @@ msgid ""
 msgstr ""
 
 msgid "Finding modules"
-msgstr ""
+msgstr "Hitta moduler"
 
 msgid ""
 "These notes supplement the description at :ref:`sys-path-init` with detailed "
@@ -1574,7 +1620,7 @@ msgid ""
 msgstr ""
 
 msgid "Additional modules"
-msgstr ""
+msgstr "Ytterligare moduler"
 
 msgid ""
 "Even though Python aims to be portable among all platforms, there are "
@@ -1588,7 +1634,7 @@ msgid ""
 msgstr ""
 
 msgid "PyWin32"
-msgstr ""
+msgstr "PyWin32"
 
 msgid ""
 "The :pypi:`PyWin32` module by Mark Hammond is a collection of modules for "
@@ -1599,12 +1645,14 @@ msgid ""
 "`Component Object Model <https://learn.microsoft.com/windows/win32/com/"
 "component-object-model--com--portal>`_ (COM)"
 msgstr ""
+"`Component Object Model <https://learn.microsoft.com/windows/win32/com/"
+"component-object-model--com--portal>`_ (COM)"
 
 msgid "Win32 API calls"
 msgstr ""
 
 msgid "Registry"
-msgstr ""
+msgstr "Register"
 
 msgid "Event log"
 msgstr ""
@@ -1625,16 +1673,16 @@ msgid ""
 msgstr ""
 
 msgid "by Tim Golden"
-msgstr ""
+msgstr "av Tim Golden"
 
 msgid "`Python and COM <https://www.boddie.org.uk/python/COM.html>`_"
-msgstr ""
+msgstr "`Python och COM <https://www.boddie.org.uk/python/COM.html>`_"
 
 msgid "by David and Paul Boddie"
-msgstr ""
+msgstr "av David och Paul Boddie"
 
 msgid "cx_Freeze"
-msgstr ""
+msgstr "cx_Freeze"
 
 msgid ""
 "`cx_Freeze <https://cx-freeze.readthedocs.io/en/latest/>`_ wraps Python "
@@ -1644,7 +1692,7 @@ msgid ""
 msgstr ""
 
 msgid "Compiling Python on Windows"
-msgstr ""
+msgstr "Kompilera Python på Windows"
 
 msgid ""
 "If you want to compile CPython yourself, first thing you should do is get "
@@ -1668,7 +1716,7 @@ msgid "For extension modules, consult :ref:`building-on-windows`."
 msgstr ""
 
 msgid "The full installer (deprecated)"
-msgstr ""
+msgstr "Det fullständiga installationsprogrammet (föråldrat)"
 
 msgid ""
 "This installer is deprecated since 3.14 and will not be produced for Python "
@@ -1676,7 +1724,7 @@ msgid ""
 msgstr ""
 
 msgid "Installation steps"
-msgstr ""
+msgstr "Installationssteg"
 
 msgid ""
 "Four Python |version| installers are available for download - two each for "
@@ -1692,7 +1740,7 @@ msgid "After starting the installer, one of two options may be selected:"
 msgstr ""
 
 msgid "If you select \"Install Now\":"
-msgstr ""
+msgstr "Om du väljer \"Installera nu\":"
 
 msgid ""
 "You will *not* need to be an administrator (unless a system update for the C "
@@ -1780,40 +1828,40 @@ msgid ""
 msgstr ""
 
 msgid "Name"
-msgstr ""
+msgstr "Namn"
 
 msgid "/passive"
-msgstr ""
+msgstr "/passive"
 
 msgid "to display progress without requiring user interaction"
 msgstr ""
 
 msgid "/quiet"
-msgstr ""
+msgstr "/quiet"
 
 msgid "to install/uninstall without displaying any UI"
 msgstr ""
 
 msgid "/simple"
-msgstr ""
+msgstr "/simple"
 
 msgid "to prevent user customization"
-msgstr ""
+msgstr "för att förhindra användaranpassning"
 
 msgid "/uninstall"
-msgstr ""
+msgstr "/uninstall"
 
 msgid "to remove Python (without confirmation)"
 msgstr ""
 
 msgid "/layout [directory]"
-msgstr ""
+msgstr "/layout [katalog]"
 
 msgid "to pre-download all components"
 msgstr ""
 
 msgid "/log [filename]"
-msgstr ""
+msgstr "/log [filnamn]"
 
 msgid "to specify log files location"
 msgstr ""
@@ -1828,25 +1876,25 @@ msgid "Default"
 msgstr ""
 
 msgid "InstallAllUsers"
-msgstr ""
+msgstr "InstallAllUsers"
 
 msgid "Perform a system-wide installation."
 msgstr ""
 
 msgid "0"
-msgstr ""
+msgstr "0"
 
 msgid "TargetDir"
-msgstr ""
+msgstr "TargetDir"
 
 msgid "The installation directory"
-msgstr ""
+msgstr "Installationskatalogen"
 
 msgid "Selected based on InstallAllUsers"
-msgstr ""
+msgstr "Vald baserat på InstallAllUsers"
 
 msgid "DefaultAllUsersTargetDir"
-msgstr ""
+msgstr "DefaultAllUsersTargetDir"
 
 msgid "The default installation directory for all-user installs"
 msgstr ""
@@ -1855,9 +1903,11 @@ msgid ""
 ":file:`%ProgramFiles%\\\\\\ Python X.Y` or :file:`\\ %ProgramFiles(x86)%\\\\"
 "\\ Python X.Y`"
 msgstr ""
+":file:`%ProgramFiles%\\\\\\ Python X.Y` eller :file:`\\ %ProgramFiles(x86)%\\"
+"\\\\ Python X.Y`"
 
 msgid "DefaultJustForMeTargetDir"
-msgstr ""
+msgstr "DefaultJustForMeTargetDir"
 
 msgid "The default install directory for just-for-me installs"
 msgstr ""
@@ -1867,6 +1917,9 @@ msgid ""
 "`%LocalAppData%\\\\\\ Programs\\\\Python\\\\\\ PythonXY-32` or :file:"
 "`%LocalAppData%\\\\\\ Programs\\\\Python\\\\\\ PythonXY-64`"
 msgstr ""
+":file:`%LocalAppData%\\\\\\ Programs\\\\Python\\\\\\ PythonXY` eller :file:"
+"`%LocalAppData%\\\\\\ Programs\\\\Python\\\\\\ PythonXY-32` eller :file:"
+"`%LocalAppData%\\\\\\ Programs\\\\Python\\\\\\ PythonXY-64`"
 
 msgid "DefaultCustomTargetDir"
 msgstr ""
@@ -1878,22 +1931,22 @@ msgid "(empty)"
 msgstr ""
 
 msgid "AssociateFiles"
-msgstr ""
+msgstr "AssociateFiles"
 
 msgid "Create file associations if the launcher is also installed."
 msgstr ""
 
 msgid "1"
-msgstr ""
+msgstr "1"
 
 msgid "CompileAll"
-msgstr ""
+msgstr "CompileAll"
 
 msgid "Compile all ``.py`` files to ``.pyc``."
-msgstr ""
+msgstr "Kompilera alla ``.py``\\-filer till ``.pyc``."
 
 msgid "PrependPath"
-msgstr ""
+msgstr "PrependPath"
 
 msgid ""
 "Prepend install and Scripts directories  to :envvar:`PATH` and add ``.PY`` "
@@ -1901,7 +1954,7 @@ msgid ""
 msgstr ""
 
 msgid "AppendPath"
-msgstr ""
+msgstr "AppendPath"
 
 msgid ""
 "Append install and Scripts directories  to :envvar:`PATH` and add ``.PY`` "
@@ -1916,19 +1969,19 @@ msgid ""
 msgstr ""
 
 msgid "Include_doc"
-msgstr ""
+msgstr "Include_doc"
 
 msgid "Install Python manual"
 msgstr ""
 
 msgid "Include_debug"
-msgstr ""
+msgstr "Include_debug"
 
 msgid "Install debug binaries"
 msgstr ""
 
 msgid "Include_dev"
-msgstr ""
+msgstr "Include_dev"
 
 msgid ""
 "Install developer headers and libraries. Omitting this may lead to an "
@@ -1936,7 +1989,7 @@ msgid ""
 msgstr ""
 
 msgid "Include_exe"
-msgstr ""
+msgstr "Include_exe"
 
 msgid ""
 "Install :file:`python.exe` and related files. Omitting this may lead to an "
@@ -1944,10 +1997,10 @@ msgid ""
 msgstr ""
 
 msgid "Include_launcher"
-msgstr ""
+msgstr "Include_launcher"
 
 msgid "Install :ref:`launcher`."
-msgstr ""
+msgstr "Installera :ref:`launcher`."
 
 msgid "InstallLauncherAllUsers"
 msgstr ""
@@ -1958,7 +2011,7 @@ msgid ""
 msgstr ""
 
 msgid "Include_lib"
-msgstr ""
+msgstr "Include_lib"
 
 msgid ""
 "Install standard library and extension modules. Omitting this may lead to an "
@@ -1966,49 +2019,49 @@ msgid ""
 msgstr ""
 
 msgid "Include_pip"
-msgstr ""
+msgstr "Include_pip"
 
 msgid "Install bundled pip and setuptools"
 msgstr ""
 
 msgid "Include_symbols"
-msgstr ""
+msgstr "Include_symbols"
 
 msgid "Install debugging symbols (``*.pdb``)"
 msgstr ""
 
 msgid "Include_tcltk"
-msgstr ""
+msgstr "Include_tcltk"
 
 msgid "Install Tcl/Tk support and IDLE"
 msgstr ""
 
 msgid "Include_test"
-msgstr ""
+msgstr "Include_test"
 
 msgid "Install standard library test suite"
 msgstr ""
 
 msgid "Include_tools"
-msgstr ""
+msgstr "Include_tools"
 
 msgid "Install utility scripts"
 msgstr ""
 
 msgid "LauncherOnly"
-msgstr ""
+msgstr "LauncherOnly"
 
 msgid "Only installs the launcher. This will override most other options."
 msgstr ""
 
 msgid "SimpleInstall"
-msgstr ""
+msgstr "SimpleInstall"
 
 msgid "Disable most install UI"
 msgstr ""
 
 msgid "SimpleInstallDescription"
-msgstr ""
+msgstr "SimpleInstallDescription"
 
 msgid "A custom message to display when the simplified install UI is used."
 msgstr ""
@@ -2019,7 +2072,7 @@ msgid ""
 msgstr ""
 
 msgid "python-3.9.0.exe /quiet InstallAllUsers=1 PrependPath=1 Include_test=0"
-msgstr ""
+msgstr "python-3.9.0.exe /quiet InstallAllUsers=1 PrependPath=1 Include_test=0"
 
 msgid ""
 "To allow users to easily install a personal copy of Python without the test "
@@ -2031,6 +2084,9 @@ msgid ""
 "python-3.9.0.exe InstallAllUsers=0 Include_launcher=0 Include_test=0\n"
 "    SimpleInstall=1 SimpleInstallDescription=\"Just for me, no test suite.\""
 msgstr ""
+"python-3.9.0.exe InstallAllUsers=0 Include_launcher=0 Include_test=0\n"
+"    SimpleInstall=1 SimpleInstallDescription=\"Bara för mig, ingen testsvit."
+"\""
 
 msgid ""
 "(Note that omitting the launcher also omits file associations, and is only "
@@ -2078,14 +2134,14 @@ msgid ""
 msgstr ""
 
 msgid "python-3.9.0.exe /layout [optional target directory]"
-msgstr ""
+msgstr "python-3.9.0.exe /layout [valfri målkatalog]"
 
 msgid ""
 "You may also specify the ``/quiet`` option to hide the progress display."
 msgstr ""
 
 msgid "Modifying an install"
-msgstr ""
+msgstr "Modifiera en installation"
 
 msgid ""
 "Once Python has been installed, you can add or remove features through the "
@@ -2147,9 +2203,11 @@ msgid ""
 "Free-threaded binaries are also available :ref:`on nuget.org <windows-"
 "nuget>`."
 msgstr ""
+"Fritt trådade binärfiler finns också tillgängliga :ref:`på nuget.org "
+"<windows-nuget>`."
 
 msgid "Python Launcher for Windows (Deprecated)"
-msgstr ""
+msgstr "Python Launcher för Windows (Föråldrad)"
 
 msgid ""
 "The launcher and this documentation have been superseded by the Python "
@@ -2175,10 +2233,10 @@ msgid "The launcher was originally specified in :pep:`397`."
 msgstr ""
 
 msgid "Getting started"
-msgstr ""
+msgstr "Kom igång"
 
 msgid "From the command-line"
-msgstr ""
+msgstr "Från kommandoraden"
 
 msgid ""
 "System-wide installations of Python 3.3 and later will put the launcher on "
@@ -2188,7 +2246,7 @@ msgid ""
 msgstr ""
 
 msgid "py"
-msgstr ""
+msgstr "py"
 
 msgid ""
 "You should find that the latest version of Python you have installed is "
@@ -2203,7 +2261,7 @@ msgid ""
 msgstr ""
 
 msgid "py -3.7"
-msgstr ""
+msgstr "py -3,7"
 
 msgid ""
 "If you want the latest version of Python 2 you have installed, try the "
@@ -2211,7 +2269,7 @@ msgid ""
 msgstr ""
 
 msgid "py -2"
-msgstr ""
+msgstr "py -2"
 
 msgid ""
 "If you see the following error, you do not have the launcher installed::"
@@ -2223,10 +2281,10 @@ msgid ""
 msgstr ""
 
 msgid "The command::"
-msgstr ""
+msgstr "Kommandot::"
 
 msgid "py --list"
-msgstr ""
+msgstr "py --list"
 
 msgid "displays the currently installed version(s) of Python."
 msgstr ""
@@ -2255,6 +2313,14 @@ msgid ""
 "# Select PythonCore's latest Python 3 runtime\n"
 "py -V:PythonCore/3"
 msgstr ""
+"# Välj alla \"3.*\" taggade runtime\n"
+"py -V:3\n"
+"\n"
+"# Välj alla 'PythonCore'-utgivna körtider\n"
+"py -V:PythonCore/\n"
+"\n"
+"# Välj PythonCores senaste Python 3-körtid\n"
+"py -V:PythonCore/3"
 
 msgid ""
 "The short form of the argument (``-3``) only ever selects from core Python "
@@ -2271,7 +2337,7 @@ msgid ""
 msgstr ""
 
 msgid "Virtual environments"
-msgstr ""
+msgstr "Virtuella miljöer"
 
 msgid ""
 "If the launcher is run with no explicit Python version specification, and a "
@@ -2283,24 +2349,29 @@ msgid ""
 msgstr ""
 
 msgid "From a script"
-msgstr ""
+msgstr "Från ett skript"
 
 msgid ""
 "Let's create a test Python script - create a file called ``hello.py`` with "
 "the following contents"
 msgstr ""
+"Låt oss skapa ett test-Python-skript - skapa en fil som heter ``hello.py`` "
+"med följande innehåll"
 
 msgid ""
 "#! python\n"
 "import sys\n"
 "sys.stdout.write(\"hello from Python %s\\n\" % (sys.version,))"
 msgstr ""
+"#! python\n"
+"import sys\n"
+"sys.stdout.write(\"hej från Python %s\\n\" % (sys.version,))"
 
 msgid "From the directory in which hello.py lives, execute the command::"
-msgstr ""
+msgstr "Från den katalog där hello.py finns, kör kommandot::"
 
 msgid "py hello.py"
-msgstr ""
+msgstr "py hello.py"
 
 msgid ""
 "You should notice the version number of your latest Python 2.x installation "
@@ -2308,7 +2379,7 @@ msgid ""
 msgstr ""
 
 msgid "#! python3"
-msgstr ""
+msgstr "#! python3"
 
 msgid ""
 "Re-executing the command should now print the latest Python 3.x information. "
@@ -2326,7 +2397,7 @@ msgid ""
 msgstr ""
 
 msgid "From file associations"
-msgstr ""
+msgstr "Från filassociationer"
 
 msgid ""
 "The launcher should have been associated with Python files (i.e. ``.py``, ``."
@@ -2342,7 +2413,7 @@ msgid ""
 msgstr ""
 
 msgid "Shebang Lines"
-msgstr ""
+msgstr "Shebang-rader"
 
 msgid ""
 "If the first line of a script file starts with ``#!``, it is known as a "
@@ -2360,16 +2431,16 @@ msgid ""
 msgstr ""
 
 msgid "``/usr/bin/env``"
-msgstr ""
+msgstr "``/usr/bin/env``"
 
 msgid "``/usr/bin/python``"
-msgstr ""
+msgstr "``/usr/bin/python``"
 
 msgid "``/usr/local/bin/python``"
-msgstr ""
+msgstr "``/usr/local/bin/python``"
 
 msgid "``python``"
-msgstr ""
+msgstr "``python``"
 
 msgid ""
 "Any of the above virtual commands can be suffixed with an explicit version "
@@ -2426,6 +2497,8 @@ msgid ""
 "[commands]\n"
 "/bin/xpython=C:\\Program Files\\XPython\\python.exe"
 msgstr ""
+"[commands]\n"
+"/bin/xpython=C:\\Program Files\\XPython\\python.exe"
 
 msgid ""
 "Any commands not found in the .INI file are treated as **Windows** "
@@ -2438,7 +2511,7 @@ msgid ""
 msgstr ""
 
 msgid "Arguments in shebang lines"
-msgstr ""
+msgstr "Argument i shebang-rader"
 
 msgid ""
 "The shebang lines can also specify additional options to be passed to the "
@@ -2446,16 +2519,16 @@ msgid ""
 msgstr ""
 
 msgid "#! /usr/bin/python -v"
-msgstr ""
+msgstr "#! /usr/bin/python -v"
 
 msgid "Then Python will be started with the ``-v`` option"
-msgstr ""
+msgstr "Då kommer Python att startas med alternativet ``-v``"
 
 msgid "Customization"
-msgstr ""
+msgstr "Anpassning"
 
 msgid "Customization via INI files"
-msgstr ""
+msgstr "Anpassning via INI-filer"
 
 msgid ""
 "Two .ini files will be searched by the launcher - ``py.ini`` in the current "
@@ -2522,7 +2595,7 @@ msgid ""
 msgstr ""
 
 msgid "Examples:"
-msgstr ""
+msgstr "Exempel:"
 
 msgid ""
 "If no relevant options are set, the commands ``python`` and ``python2`` will "
@@ -2562,7 +2635,7 @@ msgid ""
 msgstr ""
 
 msgid "For example:"
-msgstr ""
+msgstr "Till exempel:"
 
 msgid "Setting ``PY_PYTHON=3.7`` is equivalent to the INI file containing:"
 msgstr ""
@@ -2571,6 +2644,8 @@ msgid ""
 "[defaults]\n"
 "python=3.7"
 msgstr ""
+"[defaults]\n"
+"python=3.7"
 
 msgid ""
 "Setting ``PY_PYTHON=3`` and ``PY_PYTHON3=3.7`` is equivalent to the INI file "
@@ -2582,9 +2657,12 @@ msgid ""
 "python=3\n"
 "python3=3.7"
 msgstr ""
+"[defaults]\n"
+"python=3\n"
+"python3=3.7"
 
 msgid "Diagnostics"
-msgstr ""
+msgstr "Diagnostik"
 
 msgid ""
 "If an environment variable :envvar:`PYLAUNCHER_DEBUG` is set (to any value), "
@@ -2596,7 +2674,7 @@ msgid ""
 msgstr ""
 
 msgid "Dry Run"
-msgstr ""
+msgstr "Torrkörning"
 
 msgid ""
 "If an environment variable :envvar:`PYLAUNCHER_DRYRUN` is set (to any "
@@ -2608,7 +2686,7 @@ msgid ""
 msgstr ""
 
 msgid "Install on demand"
-msgstr ""
+msgstr "Installera på begäran"
 
 msgid ""
 "If an environment variable :envvar:`PYLAUNCHER_ALLOW_INSTALL` is set (to any "
@@ -2626,7 +2704,7 @@ msgid ""
 msgstr ""
 
 msgid "Return codes"
-msgstr ""
+msgstr "Returkoder"
 
 msgid ""
 "The following exit codes may be returned by the Python launcher. "
@@ -2641,10 +2719,10 @@ msgid ""
 msgstr ""
 
 msgid "Value"
-msgstr ""
+msgstr "Värde"
 
 msgid "RC_BAD_VENV_CFG"
-msgstr ""
+msgstr "RC_BAD_VENV_CFG"
 
 msgid "107"
 msgstr ""
@@ -2662,7 +2740,7 @@ msgid "Failed to launch Python."
 msgstr ""
 
 msgid "RC_INSTALLING"
-msgstr ""
+msgstr "RC_INSTALLING"
 
 msgid "111"
 msgstr ""
@@ -2673,7 +2751,7 @@ msgid ""
 msgstr ""
 
 msgid "RC_INTERNAL_ERROR"
-msgstr ""
+msgstr "RC_INTERNAL_ERROR"
 
 msgid "109"
 msgstr ""
@@ -2682,7 +2760,7 @@ msgid "Unexpected error. Please report a bug."
 msgstr ""
 
 msgid "RC_NO_COMMANDLINE"
-msgstr ""
+msgstr "RC_NO_COMMANDLINE"
 
 msgid "108"
 msgstr ""
@@ -2691,7 +2769,7 @@ msgid "Unable to obtain command line from the operating system."
 msgstr ""
 
 msgid "RC_NO_PYTHON"
-msgstr ""
+msgstr "RC_NO_PYTHON"
 
 msgid "103"
 msgstr ""
@@ -2700,7 +2778,7 @@ msgid "Unable to locate the requested version."
 msgstr ""
 
 msgid "RC_NO_VENV_CFG"
-msgstr ""
+msgstr "RC_NO_VENV_CFG"
 
 msgid "106"
 msgstr ""
