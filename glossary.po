@@ -1505,7 +1505,7 @@ msgid ""
 msgstr ""
 
 msgid "See also :term:`module`."
-msgstr ""
+msgstr "Se även :term:`module`."
 
 msgid "nested scope"
 msgstr ""
@@ -1558,6 +1558,9 @@ msgid ""
 "subpackages.  Technically, a package is a Python module with a ``__path__`` "
 "attribute."
 msgstr ""
+"En Python :term:`module` som kan innehålla undermoduler eller rekursivt, "
+"underpaket.  Tekniskt sett är ett paket en Python-modul med attributet "
+"``__path__``."
 
 msgid "See also :term:`regular package` and :term:`namespace package`."
 msgstr ""

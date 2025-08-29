@@ -24,7 +24,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Dealing with Bugs"
-msgstr ""
+msgstr "Hantering av buggar"
 
 msgid ""
 "Python is a mature programming language which has established a reputation "
@@ -60,7 +60,7 @@ msgid ""
 msgstr ""
 
 msgid "`Documentation bugs`_"
-msgstr ""
+msgstr "`Documentation bugs`_"
 
 msgid ""
 "A list of documentation bugs that have been submitted to the Python issue "
@@ -78,6 +78,8 @@ msgid ""
 "`Helping with Documentation <https://devguide.python.org/docquality/#helping-"
 "with-documentation>`_"
 msgstr ""
+"`Hjälp med dokumentation <https://devguide.python.org/docquality/#helping-"
+"with-documentation>`_"
 
 msgid ""
 "Comprehensive guide for individuals that are interested in contributing to "
@@ -95,7 +97,7 @@ msgid ""
 msgstr ""
 
 msgid "Using the Python issue tracker"
-msgstr ""
+msgstr "Använda Pythons ärendehanterare"
 
 msgid ""
 "Issue reports for Python itself should be submitted via the GitHub issues "
@@ -151,6 +153,8 @@ msgid ""
 "`How to Report Bugs Effectively <https://www.chiark.greenend.org.uk/"
 "~sgtatham/bugs.html>`_"
 msgstr ""
+"`Så här rapporterar du buggar på ett effektivt sätt <https://www.chiark."
+"greenend.org.uk/~sgtatham/bugs.html>`_"
 
 msgid ""
 "Article which goes into some detail about how to create a useful bug report. "
@@ -168,7 +172,7 @@ msgid ""
 msgstr ""
 
 msgid "Getting started contributing to Python yourself"
-msgstr ""
+msgstr "Kom igång med att själv bidra till Python"
 
 msgid ""
 "Beyond just reporting bugs that you find, you are also welcome to submit "
