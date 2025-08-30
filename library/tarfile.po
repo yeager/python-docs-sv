@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-25 14:20+0000\n"
+"POT-Creation-Date: 2025-08-29 14:17+0000\n"
 "PO-Revision-Date: 2025-08-02 17:34+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>, 2025\n"
 "Language-Team: Swedish (https://app.transifex.com/python-doc/teams/5390/"
@@ -99,43 +99,43 @@ msgid "action"
 msgstr ""
 
 msgid "``'r'`` or ``'r:*'``"
-msgstr ""
+msgstr "``'r'`` eller ``'r:*'``"
 
 msgid "Open for reading with transparent compression (recommended)."
 msgstr ""
 
 msgid "``'r:'``"
-msgstr ""
+msgstr "``'r:'``"
 
 msgid "Open for reading exclusively without compression."
 msgstr ""
 
 msgid "``'r:gz'``"
-msgstr ""
+msgstr "``'r:gz'``"
 
 msgid "Open for reading with gzip compression."
 msgstr ""
 
 msgid "``'r:bz2'``"
-msgstr ""
+msgstr "``'r:bz2'``"
 
 msgid "Open for reading with bzip2 compression."
 msgstr ""
 
 msgid "``'r:xz'``"
-msgstr ""
+msgstr "``'r:xz'``"
 
 msgid "Open for reading with lzma compression."
 msgstr ""
 
 msgid "``'r:zst'``"
-msgstr ""
+msgstr "``'r:zst'``"
 
 msgid "Open for reading with Zstandard compression."
 msgstr ""
 
 msgid "``'x'`` or ``'x:'``"
-msgstr ""
+msgstr "``'x'`` eller ``'x:'``"
 
 msgid ""
 "Create a tarfile exclusively without compression. Raise a :exc:"
@@ -143,7 +143,7 @@ msgid ""
 msgstr ""
 
 msgid "``'x:gz'``"
-msgstr ""
+msgstr "``'x:gz'``"
 
 msgid ""
 "Create a tarfile with gzip compression. Raise a :exc:`FileExistsError` "
@@ -151,7 +151,7 @@ msgid ""
 msgstr ""
 
 msgid "``'x:bz2'``"
-msgstr ""
+msgstr "``'x:bz2'``"
 
 msgid ""
 "Create a tarfile with bzip2 compression. Raise a :exc:`FileExistsError` "
@@ -159,7 +159,7 @@ msgid ""
 msgstr ""
 
 msgid "``'x:xz'``"
-msgstr ""
+msgstr "``'x:xz'``"
 
 msgid ""
 "Create a tarfile with lzma compression. Raise a :exc:`FileExistsError` "
@@ -167,7 +167,7 @@ msgid ""
 msgstr ""
 
 msgid "``'x:zst'``"
-msgstr ""
+msgstr "``'x:zst'``"
 
 msgid ""
 "Create a tarfile with Zstandard compression. Raise a :exc:`FileExistsError` "
@@ -175,7 +175,7 @@ msgid ""
 msgstr ""
 
 msgid "``'a'`` or ``'a:'``"
-msgstr ""
+msgstr "``'a'`` eller ``'a:'``"
 
 msgid ""
 "Open for appending with no compression. The file is created if it does not "
@@ -183,31 +183,31 @@ msgid ""
 msgstr ""
 
 msgid "``'w'`` or ``'w:'``"
-msgstr ""
+msgstr "``'w'`` eller ``'w:'``"
 
 msgid "Open for uncompressed writing."
 msgstr ""
 
 msgid "``'w:gz'``"
-msgstr ""
+msgstr "``'w:gz'``"
 
 msgid "Open for gzip compressed writing."
 msgstr ""
 
 msgid "``'w:bz2'``"
-msgstr ""
+msgstr "``'w:bz2'``"
 
 msgid "Open for bzip2 compressed writing."
 msgstr ""
 
 msgid "``'w:xz'``"
-msgstr ""
+msgstr "``'w:xz'``"
 
 msgid "Open for lzma compressed writing."
 msgstr ""
 
 msgid "``'w:zst'``"
-msgstr ""
+msgstr "``'w:zst'``"
 
 msgid "Open for Zstandard compressed writing."
 msgstr ""

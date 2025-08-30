@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-27 14:18+0000\n"
+"POT-Creation-Date: 2025-08-29 14:17+0000\n"
 "PO-Revision-Date: 2025-08-02 17:35+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>, 2025\n"
 "Language-Team: Swedish (https://app.transifex.com/python-doc/teams/5390/"
@@ -72,8 +72,13 @@ msgid ""
 "previously caused a segfault."
 msgstr ""
 
-msgid "Python 3.14.0 release candidate 2"
+msgid ""
+":gh:`137576`: Fix for incorrect source code being shown in tracebacks from "
+"the Basic REPL when :envvar:`PYTHONSTARTUP` is given. Patch by Adam Hartz."
 msgstr ""
+
+msgid "Python 3.14.0 release candidate 2"
+msgstr "Python 3.14.0 releasekandidat 2"
 
 msgid "*Release date: 2025-08-14*"
 msgstr "*Utgivningsdatum: 2025-08-14*"
@@ -207,7 +212,7 @@ msgid ":gh:`132339`: Add support for OpenSSL 3.5."
 msgstr ""
 
 msgid "Python 3.14.0 release candidate 1"
-msgstr ""
+msgstr "Python 3.14.0 releasekandidat 1"
 
 msgid "*Release date: 2025-07-22*"
 msgstr "*Utgivningsdatum: 2025-07-22*"
@@ -12428,6 +12433,9 @@ msgid ""
 ":gh:`72249`: :func:`functools.partial`s of :func:`repr` has been improved to "
 "include the :term:`module` name. Patched by Furkan Onder and Anilyka Barry."
 msgstr ""
+":gh:`72249`: :func:`functools.partial` av :func:`repr` har förbättrats för "
+"att inkludera namnet :term:`module`. Patchad av Furkan Onder och Anilyka "
+"Barry."
 
 msgid ""
 ":gh:`100985`: Update HTTPSConnection to consistently wrap IPv6 Addresses "
@@ -13350,6 +13358,7 @@ msgstr ""
 msgid ""
 ":gh:`96905`: In idlelib code, stop redefining built-ins 'dict' and 'object'."
 msgstr ""
+":gh:`96905`: I idlelib-koden, sluta omdefiniera inbyggda 'dict' och 'object'."
 
 msgid ""
 ":gh:`103820`: Revise IDLE bindings so that events from mouse button 4/5 on "
@@ -13427,7 +13436,7 @@ msgid ""
 msgstr ""
 
 msgid "Python 3.13.0 alpha 3"
-msgstr ""
+msgstr "Python 3.13.0 alpha 3"
 
 msgid "*Release date: 2024-01-17*"
 msgstr "*Utgivningsdatum: 2024-01-17*"
@@ -53774,8 +53783,6 @@ msgid ""
 ":issue:`35488`: Add a test to pathlib's Path.match() to verify it does not "
 "support glob-style ** recursive pattern matching."
 msgstr ""
-":issue:`35488`: Lägg till ett test i pathlibs Path.match() för att verifiera "
-"att den inte stöder glob-style **-rekursiv mönstermatchning."
 
 msgid ""
 ":issue:`31731`: Fix a race condition in ``check_interrupted_write()`` of "
@@ -54872,7 +54879,7 @@ msgid ""
 msgstr ""
 
 msgid "Python 3.7.0 release candidate 1"
-msgstr ""
+msgstr "Python 3.7.0 releasekandidat 1"
 
 msgid "*Release date: 2018-06-12*"
 msgstr "*Utgivningsdatum: 2018-06-12*"
@@ -60378,7 +60385,7 @@ msgid "There were no new changes in version 3.6.6."
 msgstr ""
 
 msgid "Python 3.6.6 release candidate 1"
-msgstr ""
+msgstr "Python 3.6.6 releasekandidat 1"
 
 msgid "*Release date: 2018-06-11*"
 msgstr "*Utgivningsdatum: 2018-06-11*"
@@ -60401,7 +60408,7 @@ msgid "*Release date: 2018-03-28*"
 msgstr "*Utgivningsdatum: 2018-03-28*"
 
 msgid "Python 3.6.5 release candidate 1"
-msgstr ""
+msgstr "Python 3.6.5 releasekandidat 1"
 
 msgid "*Release date: 2018-03-13*"
 msgstr "*Utgivningsdatum: 2018-03-13*"
@@ -60463,7 +60470,7 @@ msgid "There were no new code changes in version 3.6.4 since v3.6.4rc1."
 msgstr ""
 
 msgid "Python 3.6.4 release candidate 1"
-msgstr ""
+msgstr "Python 3.6.4 releasekandidat 1"
 
 msgid ""
 ":issue:`31852`: Fix a segmentation fault caused by a combination of the "
@@ -60502,7 +60509,7 @@ msgid ""
 msgstr ""
 
 msgid "Python 3.6.3 release candidate 1"
-msgstr ""
+msgstr "Python 3.6.3 releasekandidat 1"
 
 msgid "*Release date: 2017-09-18*"
 msgstr "*Utgivningsdatum: 2017-09-18*"
@@ -60514,16 +60521,16 @@ msgid "*Release date: 2017-07-17*"
 msgstr "*Utgivningsdatum: 2017-07-17*"
 
 msgid "No changes since release candidate 2"
-msgstr ""
+msgstr "Inga ändringar sedan releasekandidat 2"
 
 msgid "Python 3.6.2 release candidate 2"
-msgstr ""
+msgstr "Python 3.6.2 releasekandidat 2"
 
 msgid "*Release date: 2017-07-07*"
 msgstr "*Utgivningsdatum: 2017-07-07*"
 
 msgid "Python 3.6.2 release candidate 1"
-msgstr ""
+msgstr "Python 3.6.2 releasekandidat 1"
 
 msgid "*Release date: 2017-06-17*"
 msgstr "*Utgivningsdatum: 2017-06-17*"
@@ -60573,7 +60580,7 @@ msgid "Fix incompatible comment in python.h"
 msgstr ""
 
 msgid "Python 3.6.1 release candidate 1"
-msgstr ""
+msgstr "Python 3.6.1 releasekandidat 1"
 
 msgid "*Release date: 2017-03-04*"
 msgstr "*Utgivningsdatum: 2017-03-04*"
@@ -60680,7 +60687,7 @@ msgid "*Release date: 2016-12-23*"
 msgstr "*Utgivningsdatum: 2016-12-23*"
 
 msgid "Python 3.6.0 release candidate 2"
-msgstr ""
+msgstr "Python 3.6.0 releasekandidat 2"
 
 msgid "*Release date: 2016-12-16*"
 msgstr "*Utgivningsdatum: 2016-12-16*"
@@ -60701,7 +60708,7 @@ msgid ""
 msgstr ""
 
 msgid "Python 3.6.0 release candidate 1"
-msgstr ""
+msgstr "Python 3.6.0 releasekandidat 1"
 
 msgid "*Release date: 2016-12-06*"
 msgstr "*Utgivningsdatum: 2016-12-06*"
@@ -64665,7 +64672,7 @@ msgid "There were no new changes in version 3.5.5."
 msgstr ""
 
 msgid "Python 3.5.5 release candidate 1"
-msgstr ""
+msgstr "Python 3.5.5 releasekandidat 1"
 
 msgid "*Release date: 2018-01-23*"
 msgstr "*Utgivningsdatum: 2018-01-23*"
@@ -64698,7 +64705,7 @@ msgid "*Release date: 2017-08-07*"
 msgstr "*Utgivningsdatum: 2017-08-07*"
 
 msgid "Python 3.5.4 release candidate 1"
-msgstr ""
+msgstr "Python 3.5.4 releasekandidat 1"
 
 msgid "*Release date: 2017-07-23*"
 msgstr "*Utgivningsdatum: 2017-07-23*"
@@ -64745,7 +64752,7 @@ msgid "There were no code changes between 3.5.3rc1 and 3.5.3 final."
 msgstr ""
 
 msgid "Python 3.5.3 release candidate 1"
-msgstr ""
+msgstr "Python 3.5.3 releasekandidat 1"
 
 msgid "*Release date: 2017-01-02*"
 msgstr "*Utgivningsdatum: 2017-01-02*"
@@ -64893,7 +64900,7 @@ msgid ""
 msgstr ""
 
 msgid "Python 3.5.2 release candidate 1"
-msgstr ""
+msgstr "Python 3.5.2 releasekandidat 1"
 
 msgid "*Release date: 2016-06-12*"
 msgstr "*Utgivningsdatum: 2016-06-12*"
@@ -64986,7 +64993,7 @@ msgid ""
 msgstr ""
 
 msgid "Python 3.5.1 release candidate 1"
-msgstr ""
+msgstr "Python 3.5.1 releasekandidat 1"
 
 msgid "*Release date: 2015-11-22*"
 msgstr "*Utgivningsdatum: 2015-11-22*"
@@ -65311,7 +65318,7 @@ msgid ""
 msgstr ""
 
 msgid "Python 3.5.0 release candidate 4"
-msgstr ""
+msgstr "Python 3.5.0 releasekandidat 4"
 
 msgid "*Release date: 2015-09-09*"
 msgstr "*Utgivningsdatum: 2015-09-09*"
@@ -65325,7 +65332,7 @@ msgid ""
 msgstr ""
 
 msgid "Python 3.5.0 release candidate 3"
-msgstr ""
+msgstr "Python 3.5.0 releasekandidat 3"
 
 msgid "*Release date: 2015-09-07*"
 msgstr "*Utgivningsdatum: 2015-09-07*"
@@ -65363,7 +65370,7 @@ msgid ""
 msgstr ""
 
 msgid "Python 3.5.0 release candidate 2"
-msgstr ""
+msgstr "Python 3.5.0 releasekandidat 2"
 
 msgid "*Release date: 2015-08-25*"
 msgstr "*Utgivningsdatum: 2015-08-25*"
@@ -65394,7 +65401,7 @@ msgid ":issue:`24867`: Fix Task.get_stack() for 'async def' coroutines"
 msgstr ""
 
 msgid "Python 3.5.0 release candidate 1"
-msgstr ""
+msgstr "Python 3.5.0 releasekandidat 1"
 
 msgid "*Release date: 2015-08-09*"
 msgstr "*Utgivningsdatum: 2015-08-09*"
