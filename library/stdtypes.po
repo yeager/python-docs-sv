@@ -6016,7 +6016,7 @@ msgid ":class:`functools.cached_property`"
 msgstr ""
 
 msgid ":class:`functools.partialmethod`"
-msgstr ""
+msgstr ":class:`functools.partialmethod`"
 
 msgid ":class:`os.PathLike`"
 msgstr ""
