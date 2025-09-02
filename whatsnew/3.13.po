@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-29 14:17+0000\n"
+"POT-Creation-Date: 2025-09-01 14:16+0000\n"
 "PO-Revision-Date: 2025-08-02 17:35+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>, 2025\n"
 "Language-Team: Swedish (https://app.transifex.com/python-doc/teams/5390/"
@@ -24,13 +24,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "What's New In Python 3.13"
-msgstr ""
+msgstr "Vad är nytt i Python 3.13"
 
 msgid "Editors"
 msgstr ""
 
 msgid "Adam Turner and Thomas Wouters"
-msgstr ""
+msgstr "Adam Turner och Thomas Wouters"
 
 msgid ""
 "This article explains the new features in Python 3.13, compared to 3.12. "
@@ -229,7 +229,7 @@ msgid ""
 msgstr ""
 
 msgid "Platform support:"
-msgstr ""
+msgstr "Plattformsstöd:"
 
 msgid ""
 ":pep:`730`: Apple's iOS is now an :ref:`officially supported platform "
@@ -249,7 +249,7 @@ msgid "``wasm32-emscripten`` is no longer an officially supported platform."
 msgstr ""
 
 msgid "Important removals:"
-msgstr ""
+msgstr "Viktiga borttagningar:"
 
 msgid ""
 ":ref:`PEP 594 <whatsnew313-pep594>`: The remaining 19 \"dead "
@@ -298,7 +298,7 @@ msgid ""
 msgstr ""
 
 msgid "New Features"
-msgstr ""
+msgstr "Nya funktioner"
 
 msgid "A better interactive interpreter"
 msgstr ""
@@ -398,7 +398,7 @@ msgid ""
 msgstr ""
 
 msgid "(Contributed by Shantanu Jain in :gh:`95754`.)"
-msgstr ""
+msgstr "(Bidrag från Shantanu Jain i :gh:`95754`.)"
 
 msgid ""
 "The error message now tries to suggest the correct keyword argument when an "
@@ -650,7 +650,7 @@ msgid ""
 msgstr ""
 
 msgid ":pep:`730`, :pep:`738`"
-msgstr ""
+msgstr ":pep:`730`, :pep:`738`"
 
 msgid "Other Language Changes"
 msgstr ""
@@ -678,7 +678,7 @@ msgid ""
 msgstr ""
 
 msgid "(Contributed by Inada Naoki in :gh:`81283`.)"
-msgstr ""
+msgstr "(Bidrag från Inada Naoki i :gh:`81283`.)"
 
 msgid ""
 ":ref:`Annotation scopes <annotation-scopes>` within class scopes can now "
@@ -694,7 +694,7 @@ msgstr ""
 "    type Alias = lambda: T"
 
 msgid "(Contributed by Jelle Zijlstra in :gh:`109118` and :gh:`118160`.)"
-msgstr ""
+msgstr "(Bidrag från Jelle Zijlstra i :gh:`109118` och :gh:`118160`.)"
 
 msgid ""
 ":ref:`Future statements <future>` are no longer triggered by relative "
@@ -771,19 +771,19 @@ msgid ""
 msgstr ""
 
 msgid ":func:`_thread.start_new_thread`"
-msgstr ""
+msgstr ":func:`_thread.start_new_thread`"
 
 msgid ":func:`os.fork`"
-msgstr ""
+msgstr ":func:`os.fork`"
 
 msgid ":func:`os.forkpty`"
-msgstr ""
+msgstr ":func:`os.forkpty`"
 
 msgid ":class:`subprocess.Popen`"
-msgstr ""
+msgstr ":class:`subprocess.Popen`"
 
 msgid "(Contributed by Victor Stinner in :gh:`114570`.)"
-msgstr ""
+msgstr "(Bidrag från Victor Stinner i :gh:`114570`.)"
 
 msgid ""
 "Allow the *count* argument of :meth:`str.replace` to be a keyword. "
@@ -803,7 +803,7 @@ msgid ""
 msgstr ""
 
 msgid "New Modules"
-msgstr ""
+msgstr "Nya moduler"
 
 msgid ""
 ":mod:`dbm.sqlite3`: An SQLite backend for :mod:`dbm`. (Contributed by "
@@ -811,10 +811,10 @@ msgid ""
 msgstr ""
 
 msgid "Improved Modules"
-msgstr ""
+msgstr "Förbättrade moduler"
 
 msgid "argparse"
-msgstr ""
+msgstr "argparse"
 
 msgid ""
 "Add the *deprecated* parameter to the :meth:`~argparse.ArgumentParser."
@@ -824,7 +824,7 @@ msgid ""
 msgstr ""
 
 msgid "array"
-msgstr ""
+msgstr "array"
 
 msgid ""
 "Add the ``'w'`` type code (``Py_UCS4``) for Unicode characters. It should be "
@@ -882,7 +882,7 @@ msgid ""
 msgstr ""
 
 msgid "asyncio"
-msgstr ""
+msgstr "asyncio"
 
 msgid ""
 ":func:`asyncio.as_completed` now returns an object that is both an :term:"
@@ -978,7 +978,7 @@ msgid ""
 msgstr ""
 
 msgid "base64"
-msgstr ""
+msgstr "base64"
 
 msgid ""
 "Add :func:`~base64.z85encode` and :func:`~base64.z85decode` functions for "
@@ -987,7 +987,7 @@ msgid ""
 msgstr ""
 
 msgid "compileall"
-msgstr ""
+msgstr "compileall"
 
 msgid ""
 "The default number of worker threads and processes is now selected using :"
@@ -996,10 +996,10 @@ msgid ""
 msgstr ""
 
 msgid "concurrent.futures"
-msgstr ""
+msgstr "concurrent.futures"
 
 msgid "configparser"
-msgstr ""
+msgstr "configparser"
 
 msgid ""
 ":class:`~configparser.ConfigParser` now has support for unnamed sections, "
@@ -1009,7 +1009,7 @@ msgid ""
 msgstr ""
 
 msgid "copy"
-msgstr ""
+msgstr "copy"
 
 msgid ""
 "The new :func:`~copy.replace` function and the :meth:`replace protocol "
@@ -1020,20 +1020,21 @@ msgid ""
 msgstr ""
 
 msgid ":func:`collections.namedtuple`"
-msgstr ""
+msgstr ":func:`collections.namedtuple`"
 
 msgid ":class:`dataclasses.dataclass`"
-msgstr ""
+msgstr ":class:`dataclasses.dataclass`"
 
 msgid ""
 ":class:`datetime.datetime`, :class:`datetime.date`, :class:`datetime.time`"
 msgstr ""
+":class:`datetime.datetime`, :class:`datetime.date`, :class:`datetime.time`"
 
 msgid ":class:`inspect.Signature`, :class:`inspect.Parameter`"
-msgstr ""
+msgstr ":class:`inspect.Signature`, :class:`inspect.Parameter`"
 
 msgid ":class:`types.SimpleNamespace`"
-msgstr ""
+msgstr ":class:`types.SimpleNamespace`"
 
 msgid ":ref:`code objects <code-objects>`"
 msgstr ""
@@ -1110,7 +1111,7 @@ msgid ""
 msgstr ""
 
 msgid "doctest"
-msgstr ""
+msgstr "doctest"
 
 msgid ""
 ":mod:`doctest` output is now colored by default. This can be controlled via "
@@ -1307,10 +1308,10 @@ msgid ""
 msgstr ""
 
 msgid "multiprocessing"
-msgstr ""
+msgstr "multiprocessing"
 
 msgid "os"
-msgstr ""
+msgstr "os"
 
 msgid ""
 "Add :func:`~os.process_cpu_count` function to get the number of logical CPU "
@@ -1372,7 +1373,7 @@ msgid ""
 msgstr ""
 
 msgid "os.path"
-msgstr ""
+msgstr "os.path"
 
 msgid ""
 "Add :func:`~os.path.isreserved` to check if a path is reserved on the "
@@ -1551,12 +1552,16 @@ msgid ""
 "ctx = ssl.create_default_context()\n"
 "ctx.verify_flags &= ~ssl.VERIFY_X509_STRICT"
 msgstr ""
+"import ssl\n"
+"\n"
+"ctx = ssl.create_default_context()\n"
+"ctx.verify_flags &= ~ssl.VERIFY_X509_STRICT"
 
 msgid "(Contributed by William Woodruff in :gh:`112389`.)"
-msgstr ""
+msgstr "(Bidrag från William Woodruff i :gh:`112389`.)"
 
 msgid "statistics"
-msgstr ""
+msgstr "statistics"
 
 msgid ""
 "Add :func:`~statistics.kde` for kernel density estimation. This makes it "
@@ -1572,7 +1577,7 @@ msgid ""
 msgstr ""
 
 msgid "subprocess"
-msgstr ""
+msgstr "subprocess"
 
 msgid ""
 "The :mod:`subprocess` module now uses the :func:`~os.posix_spawn` function "
@@ -1606,7 +1611,7 @@ msgid ""
 msgstr ""
 
 msgid "tempfile"
-msgstr ""
+msgstr "tempfile"
 
 msgid ""
 "On Windows, the default mode ``0o700`` used by :func:`tempfile.mkdtemp` now "
@@ -1616,7 +1621,7 @@ msgid ""
 msgstr ""
 
 msgid "time"
-msgstr ""
+msgstr "time"
 
 msgid ""
 "On Windows, :func:`~time.monotonic` now uses the "
@@ -1634,7 +1639,7 @@ msgid ""
 msgstr ""
 
 msgid "tkinter"
-msgstr ""
+msgstr "tkinter"
 
 msgid ""
 "Add :mod:`tkinter` widget methods: :meth:`!tk_busy_hold`, :meth:`!"
@@ -1768,7 +1773,7 @@ msgid ""
 msgstr ""
 
 msgid "venv"
-msgstr ""
+msgstr "venv"
 
 msgid ""
 "Add support for creating source control management (SCM) ignore files in a "
@@ -1831,7 +1836,7 @@ msgid ""
 msgstr ""
 
 msgid "Optimizations"
-msgstr ""
+msgstr "Optimeringar"
 
 msgid ""
 "Several standard library modules have had their import times significantly "
@@ -1858,10 +1863,10 @@ msgid ""
 msgstr ""
 
 msgid "Removed Modules And APIs"
-msgstr ""
+msgstr "Borttagna moduler och API:er"
 
 msgid "PEP 594: Remove \"dead batteries\" from the standard library"
-msgstr ""
+msgstr "PEP 594: Ta bort \"döda batterier\" från standardbiblioteket"
 
 msgid ""
 ":pep:`594` proposed removing 19 modules from the standard library, "
@@ -1871,14 +1876,14 @@ msgid ""
 msgstr ""
 
 msgid ":mod:`!aifc`"
-msgstr ""
+msgstr ":mod:`!aifc``"
 
 msgid ""
 ":pypi:`standard-aifc`: Use the redistribution of ``aifc`` library from PyPI."
 msgstr ""
 
 msgid ":mod:`!audioop`"
-msgstr ""
+msgstr ":mod:`!audioop`"
 
 msgid ":pypi:`audioop-lts`: Use ``audioop-lts`` library from PyPI."
 msgstr ""
@@ -1921,6 +1926,11 @@ msgid ""
 "msg['content-type'] = 'application/json; charset=\"utf8\"'\n"
 "main, params = msg.get_content_type(), msg['content-type'].params"
 msgstr ""
+"from email.message import EmailMessage\n"
+"\n"
+"msg = EmailMessage()\n"
+"msg['content-type'] = 'application/json; charset=\"utf8\"'\n"
+"main, params = msg.get_content_type(), msg['content-type'].params"
 
 msgid ""
 ":func:`!cgi.parse_multipart` can be replaced with the functionality in the :"
@@ -1989,10 +1999,10 @@ msgid ""
 msgstr ""
 
 msgid ":mod:`!msilib`"
-msgstr ""
+msgstr ":mod:`!msilib`"
 
 msgid ":mod:`!nis`"
-msgstr ""
+msgstr ":mod:`!nis`"
 
 msgid ":mod:`!nntplib`: Use the :pypi:`pynntp` library from PyPI instead."
 msgstr ""
@@ -2031,7 +2041,7 @@ msgid ":mod:`!spwd`: Use the :pypi:`python-pam` library from PyPI instead."
 msgstr ""
 
 msgid ":mod:`!sunau`"
-msgstr ""
+msgstr ":mod:`!sunau`"
 
 msgid ""
 ":pypi:`standard-sunau`: Use the redistribution of ``sunau`` library from "
@@ -2057,7 +2067,7 @@ msgid ""
 msgstr ""
 
 msgid ":mod:`!xdrlib`"
-msgstr ""
+msgstr ":mod:`!xdrlib`"
 
 msgid ""
 ":pypi:`standard-xdrlib`: Use the redistribution of ``xdrlib`` library from "
@@ -2070,7 +2080,7 @@ msgid ""
 msgstr ""
 
 msgid "2to3"
-msgstr ""
+msgstr "2to3"
 
 msgid ""
 "Remove the :program:`2to3` program and the :mod:`!lib2to3` module, "
@@ -2103,7 +2113,7 @@ msgid ""
 msgstr ""
 
 msgid "importlib.metadata"
-msgstr ""
+msgstr "importlib.metadata"
 
 msgid ""
 "Remove deprecated subscript (:meth:`~object.__getitem__`) access for :ref:"
@@ -2112,7 +2122,7 @@ msgid ""
 msgstr ""
 
 msgid "locale"
-msgstr ""
+msgstr "locale"
 
 msgid ""
 "Remove the :func:`!locale.resetlocale` function, deprecated in Python 3.11. "
@@ -2121,7 +2131,7 @@ msgid ""
 msgstr ""
 
 msgid "opcode"
-msgstr ""
+msgstr "opcode"
 
 msgid ""
 "Move :attr:`!opcode.ENABLE_SPECIALIZATION` to :attr:`!_opcode."
@@ -2174,7 +2184,7 @@ msgid ""
 msgstr ""
 
 msgid "turtle"
-msgstr ""
+msgstr "turtle"
 
 msgid ""
 "Remove the :meth:`!RawTurtle.settiltangle` method, deprecated in the "
@@ -2224,7 +2234,7 @@ msgid ":meth:`~unittest.TestLoader.getTestCaseNames`"
 msgstr ""
 
 msgid "(Contributed by Hugo van Kemenade in :gh:`104835`.)"
-msgstr ""
+msgstr "(Bidrag från Hugo van Kemenade i :gh:`104835`.)"
 
 msgid ""
 "Remove the untested and undocumented :meth:`!TestProgram.usageExit` method, "
@@ -2264,7 +2274,7 @@ msgid "New Deprecations"
 msgstr "Nya utfasningar"
 
 msgid ":ref:`User-defined functions <user-defined-funcs>`:"
-msgstr ""
+msgstr ":ref:`Användardefinierade funktioner <user-defined-funcs>`:"
 
 msgid ""
 "Deprecate assignment to a function's :attr:`~function.__code__` attribute, "
@@ -2274,7 +2284,7 @@ msgid ""
 msgstr ""
 
 msgid ":mod:`array`:"
-msgstr ""
+msgstr ":mod:`array`:"
 
 msgid ""
 "Deprecate the ``'u'`` format code (:c:type:`wchar_t`) at runtime. This "
@@ -2285,7 +2295,7 @@ msgid ""
 msgstr ""
 
 msgid ":mod:`ctypes`:"
-msgstr ""
+msgstr ":mod:`ctypes`:"
 
 msgid ""
 "Deprecate the undocumented :func:`!SetPointerType` function, to be removed "
@@ -2299,7 +2309,7 @@ msgid ""
 msgstr ""
 
 msgid ":mod:`decimal`:"
-msgstr ""
+msgstr ":mod:`decimal`:"
 
 msgid ""
 "Deprecate the non-standard and undocumented :class:`~decimal.Decimal` format "
@@ -2308,7 +2318,7 @@ msgid ""
 msgstr ""
 
 msgid ":mod:`dis`:"
-msgstr ""
+msgstr ":mod:`dis`:"
 
 msgid ""
 "Deprecate the :attr:`!HAVE_ARGUMENT` separator. Check membership in :data:"
@@ -2316,7 +2326,7 @@ msgid ""
 msgstr ""
 
 msgid ":mod:`gettext`:"
-msgstr ""
+msgstr ":mod:`gettext`:"
 
 msgid ""
 "Deprecate non-integer numbers as arguments to functions and methods that "
@@ -2325,7 +2335,7 @@ msgid ""
 msgstr ""
 
 msgid ":mod:`glob`:"
-msgstr ""
+msgstr ":mod:`glob`:"
 
 msgid ""
 "Deprecate the undocumented :func:`!glob0` and :func:`!glob1` functions. Use :"
@@ -2335,7 +2345,7 @@ msgid ""
 msgstr ""
 
 msgid ":mod:`http.server`:"
-msgstr ""
+msgstr ":mod:`http.server`:"
 
 msgid ""
 "Deprecate :class:`~http.server.CGIHTTPRequestHandler`, to be removed in "
@@ -2361,7 +2371,7 @@ msgid ""
 msgstr ""
 
 msgid ":mod:`re`:"
-msgstr ""
+msgstr ":mod:`re`:"
 
 msgid ""
 "Deprecate passing the optional *maxsplit*, *count*, or *flags* arguments as "
@@ -2372,7 +2382,7 @@ msgid ""
 msgstr ""
 
 msgid ":mod:`pathlib`:"
-msgstr ""
+msgstr ":mod:`pathlib`:"
 
 msgid ""
 "Deprecate :meth:`.PurePath.is_reserved`, to be removed in Python 3.15. Use :"
@@ -2381,7 +2391,7 @@ msgid ""
 msgstr ""
 
 msgid ":mod:`platform`:"
-msgstr ""
+msgstr ":mod:`platform`:"
 
 msgid ""
 "Deprecate :func:`~platform.java_ver`, to be removed in Python 3.15. This "
@@ -2390,7 +2400,7 @@ msgid ""
 msgstr ""
 
 msgid ":mod:`pydoc`:"
-msgstr ""
+msgstr ":mod:`pydoc`:"
 
 msgid ""
 "Deprecate the undocumented :func:`!ispackage` function. (Contributed by "
@@ -2398,7 +2408,7 @@ msgid ""
 msgstr ""
 
 msgid ":mod:`sqlite3`:"
-msgstr ""
+msgstr ":mod:`sqlite3`:"
 
 msgid ""
 "Deprecate passing more than one positional argument to the :func:`~sqlite3."
@@ -2424,7 +2434,7 @@ msgid ""
 msgstr ""
 
 msgid ":mod:`sys`:"
-msgstr ""
+msgstr ":mod:`sys`:"
 
 msgid ""
 "Deprecate the :func:`~sys._enablelegacywindowsfsencoding` function, to be "
@@ -2433,7 +2443,7 @@ msgid ""
 msgstr ""
 
 msgid ":mod:`tarfile`:"
-msgstr ""
+msgstr ":mod:`tarfile`:"
 
 msgid ""
 "Deprecate the undocumented and unused :attr:`!TarFile.tarfile` attribute, to "
@@ -2450,7 +2460,7 @@ msgid ""
 msgstr ""
 
 msgid ":mod:`typing`:"
-msgstr ""
+msgstr ":mod:`typing`:"
 
 msgid ""
 "Deprecate the undocumented keyword argument syntax for creating :class:"
@@ -2486,7 +2496,7 @@ msgid ""
 msgstr ""
 
 msgid ":mod:`wave`:"
-msgstr ""
+msgstr ":mod:`wave`:"
 
 msgid ""
 "Deprecate the :meth:`~wave.Wave_read.getmark`, :meth:`!setmark`, and :meth:"
@@ -2496,7 +2506,7 @@ msgid ""
 msgstr ""
 
 msgid "Pending removal in Python 3.14"
-msgstr ""
+msgstr "Väntar på borttagning i Python 3.14"
 
 msgid ""
 ":mod:`argparse`: The *type*, *choices*, and *metavar* parameters of :class:`!"
@@ -2619,16 +2629,16 @@ msgid ""
 msgstr ""
 
 msgid ":mod:`pty`:"
-msgstr ""
+msgstr ":mod:`pty`:"
 
 msgid "``master_open()``: use :func:`pty.openpty`."
-msgstr ""
+msgstr "``master_open()``: använd :func:`pty.openpty`."
 
 msgid "``slave_open()``: use :func:`pty.openpty`."
-msgstr ""
+msgstr "``slave_open()``: använd :func:`pty.openpty`."
 
 msgid ":data:`!version` and :data:`!version_info`."
-msgstr ""
+msgstr ":data:`!version` och :data:`!version_info`."
 
 msgid ""
 ":meth:`~sqlite3.Cursor.execute` and :meth:`~sqlite3.Cursor.executemany` if :"
@@ -2648,10 +2658,10 @@ msgid ""
 msgstr ""
 
 msgid "Pending removal in Python 3.15"
-msgstr ""
+msgstr "Väntar på borttagning i Python 3.15"
 
 msgid "The import system:"
-msgstr ""
+msgstr "Importsystemet:"
 
 msgid ""
 "Setting :attr:`~module.__cached__` on a module while failing to set :attr:"
@@ -2684,13 +2694,13 @@ msgid ""
 msgstr ""
 
 msgid ":mod:`importlib`:"
-msgstr ""
+msgstr ":mod:`importlib`:"
 
 msgid "``load_module()`` method: use ``exec_module()`` instead."
 msgstr ""
 
 msgid ":class:`locale`:"
-msgstr ""
+msgstr ":class:`locale`:"
 
 msgid ""
 "The :func:`~locale.getdefaultlocale` function has been deprecated since "
@@ -2712,7 +2722,7 @@ msgid ""
 msgstr ""
 
 msgid ":mod:`sysconfig`:"
-msgstr ""
+msgstr ":mod:`sysconfig`:"
 
 msgid ""
 "The *check_home* argument of :func:`sysconfig.is_python_build` has been "
@@ -2720,7 +2730,7 @@ msgid ""
 msgstr ""
 
 msgid ":mod:`threading`:"
-msgstr ""
+msgstr ":mod:`threading`:"
 
 msgid ""
 ":func:`~threading.RLock` will take no arguments in Python 3.15. Passing any "
@@ -2730,7 +2740,7 @@ msgid ""
 msgstr ""
 
 msgid ":mod:`types`:"
-msgstr ""
+msgstr ":mod:`types`:"
 
 msgid ""
 ":class:`types.CodeType`: Accessing :attr:`~codeobject.co_lnotab` was "
@@ -2767,7 +2777,7 @@ msgid ""
 msgstr ""
 
 msgid ":mod:`zipimport`:"
-msgstr ""
+msgstr ":mod:`zipimport`:"
 
 msgid ""
 ":meth:`~zipimport.zipimporter.load_module` has been deprecated since Python "
@@ -2776,7 +2786,7 @@ msgid ""
 msgstr ""
 
 msgid "Pending removal in Python 3.16"
-msgstr ""
+msgstr "Väntar på borttagning i Python 3.16"
 
 msgid ""
 "Setting :attr:`~module.__loader__` on a module while failing to set :attr:"
@@ -2803,22 +2813,22 @@ msgid ""
 msgstr ""
 
 msgid ":class:`asyncio.AbstractEventLoopPolicy`"
-msgstr ""
+msgstr ":class:`asyncio.AbstractEventLoopPolicy`"
 
 msgid ":class:`asyncio.DefaultEventLoopPolicy`"
-msgstr ""
+msgstr ":class:`asyncio.DefaultEventLoopPolicy`"
 
 msgid ":class:`asyncio.WindowsSelectorEventLoopPolicy`"
-msgstr ""
+msgstr ":class:`asyncio.WindowsSelectorEventLoopPolicy`"
 
 msgid ":class:`asyncio.WindowsProactorEventLoopPolicy`"
-msgstr ""
+msgstr ":class:`asyncio.WindowsProactorEventLoopPolicy`"
 
 msgid ":func:`asyncio.get_event_loop_policy`"
-msgstr ""
+msgstr ":func:`asyncio.get_event_loop_policy`"
 
 msgid ":func:`asyncio.set_event_loop_policy`"
-msgstr ""
+msgstr ":func:`asyncio.set_event_loop_policy`"
 
 msgid ""
 "Users should use :func:`asyncio.run` or :class:`asyncio.Runner` with "
@@ -2836,12 +2846,18 @@ msgid ""
 "\n"
 "asyncio.run(main(), loop_factory=asyncio.SelectorEventLoop)"
 msgstr ""
+"import asyncio\n"
+"\n"
+"async def main():\n"
+"    ...\n"
+"\n"
+"asyncio.run(main(), loop_factory=asyncio.SelectorEventLoop)"
 
 msgid "(Contributed by Kumar Aditya in :gh:`127949`.)"
-msgstr ""
+msgstr "(Bidrag från Kumar Aditya i :gh:`127949`.)"
 
 msgid ":mod:`builtins`:"
-msgstr ""
+msgstr ":mod:`builtins`:"
 
 msgid ""
 "Bitwise inversion on boolean types, ``~True`` or ``~False`` has been "
@@ -2852,7 +2868,7 @@ msgid ""
 msgstr ""
 
 msgid ":mod:`functools`:"
-msgstr ""
+msgstr ":mod:`functools`:"
 
 msgid ""
 "Calling the Python implementation of :func:`functools.reduce` with "
@@ -2861,7 +2877,7 @@ msgid ""
 msgstr ""
 
 msgid ":mod:`logging`:"
-msgstr ""
+msgstr ":mod:`logging`:"
 
 msgid ""
 "Support for custom logging handlers with the *strm* argument is deprecated "
@@ -2877,7 +2893,7 @@ msgid ""
 msgstr ""
 
 msgid ":mod:`shutil`:"
-msgstr ""
+msgstr ":mod:`shutil`:"
 
 msgid ""
 "The :class:`!ExecError` exception has been deprecated since Python 3.14. It "
@@ -2886,7 +2902,7 @@ msgid ""
 msgstr ""
 
 msgid ":mod:`symtable`:"
-msgstr ""
+msgstr ":mod:`symtable`:"
 
 msgid ""
 "The :meth:`Class.get_methods <symtable.Class.get_methods>` method has been "
@@ -2911,7 +2927,7 @@ msgid ""
 msgstr ""
 
 msgid "Pending removal in Python 3.17"
-msgstr ""
+msgstr "Väntar på borttagning i Python 3.17"
 
 msgid ""
 "Before Python 3.14, old-style unions were implemented using the private "
@@ -2946,7 +2962,7 @@ msgid "The :class:`argparse.FileType` type converter is deprecated."
 msgstr ""
 
 msgid "``bool(NotImplemented)``."
-msgstr ""
+msgstr "``bool(NotImplemented)``."
 
 msgid ""
 "Generators: ``throw(type, exc, tb)`` and ``athrow(type, exc, tb)`` signature "
@@ -3123,6 +3139,8 @@ msgid ""
 ":meth:`!threading.Condition.notifyAll`: use :meth:`~threading.Condition."
 "notify_all`."
 msgstr ""
+":meth:`!threading.Condition.notifyAll`: använd :meth:`~threading.Condition."
+"notify_all`."
 
 msgid ":meth:`!threading.Event.isSet`: use :meth:`~threading.Event.is_set`."
 msgstr ""
@@ -3144,7 +3162,7 @@ msgid ":meth:`!threading.activeCount`: use :meth:`threading.active_count`."
 msgstr ""
 
 msgid ":class:`typing.Text` (:gh:`92332`)."
-msgstr ""
+msgstr ":class:`typing.Text` (:gh:`92332`)."
 
 msgid ""
 "The internal class ``typing._UnionGenericAlias`` is no longer used to "
@@ -3225,7 +3243,7 @@ msgid ""
 msgstr ""
 
 msgid "C API Changes"
-msgstr ""
+msgstr "Ändringar i C API"
 
 msgid ""
 "Add the :ref:`PyMonitoring C API <c-api-monitoring>` for generating :pep:"
@@ -3290,7 +3308,7 @@ msgid ":c:func:`PyMonitoring_ExitScope`"
 msgstr ""
 
 msgid "(Contributed by Irit Katriel in :gh:`111997`)."
-msgstr ""
+msgstr "(Bidrag från Irit Katriel i :gh:`111997`)."
 
 msgid ""
 "Add :c:type:`PyMutex`, a lightweight mutex that occupies a single byte, and "
@@ -3331,7 +3349,7 @@ msgid ":c:func:`PyTime_TimeRaw`."
 msgstr ""
 
 msgid "(Contributed by Victor Stinner and Petr Viktorin in :gh:`110850`.)"
-msgstr ""
+msgstr "(Bidrag från Victor Stinner och Petr Viktorin i :gh:`110850`.)"
 
 msgid ""
 "Add the :c:func:`PyDict_ContainsString` function with the same behavior as :"
@@ -3399,15 +3417,16 @@ msgstr ""
 
 msgid ":c:func:`PyEval_GetFrameBuiltins` replaces :c:func:`PyEval_GetBuiltins`"
 msgstr ""
+":c:func:`PyEval_GetFrameBuiltins` ersätter :c:func:`PyEval_GetBuiltins`"
 
 msgid ":c:func:`PyEval_GetFrameGlobals` replaces :c:func:`PyEval_GetGlobals`"
-msgstr ""
+msgstr ":c:func:`PyEval_GetFrameGlobals` ersätter :c:func:`PyEval_GetGlobals`"
 
 msgid ":c:func:`PyEval_GetFrameLocals` replaces :c:func:`PyEval_GetLocals`"
-msgstr ""
+msgstr ":c:func:`PyEval_GetFrameLocals` ersätter :c:func:`PyEval_GetLocals`"
 
 msgid "(Contributed by Mark Shannon and Tian Gao in :gh:`74929`.)"
-msgstr ""
+msgstr "(Bidrag från Mark Shannon och Tian Gao i :gh:`74929`.)"
 
 msgid ""
 "Add the :c:func:`Py_GetConstant` and :c:func:`Py_GetConstantBorrowed` "
@@ -3534,20 +3553,26 @@ msgstr ""
 msgid ""
 ":c:func:`PyObject_HasAttrWithError` replaces :c:func:`PyObject_HasAttr`."
 msgstr ""
+":c:func:`PyObject_HasAttrWithError` ersätter :c:func:`PyObject_HasAttr`."
 
 msgid ""
 ":c:func:`PyObject_HasAttrStringWithError` replaces :c:func:"
 "`PyObject_HasAttrString`."
 msgstr ""
+":c:func:`PyObject_HasAttrStringWithError` ersätter :c:func:"
+"`PyObject_HasAttrString`."
 
 msgid ""
 ":c:func:`PyMapping_HasKeyWithError` replaces :c:func:`PyMapping_HasKey`."
 msgstr ""
+":c:func:`PyMapping_HasKeyWithError` ersätter :c:func:`PyMapping_HasKey`."
 
 msgid ""
 ":c:func:`PyMapping_HasKeyStringWithError` replaces :c:func:"
 "`PyMapping_HasKeyString`."
 msgstr ""
+":c:func:`PyMapping_HasKeyStringWithError` ersätter :c:func:"
+"`PyMapping_HasKeyString`."
 
 msgid ""
 "The new functions return ``-1`` for errors and the standard ``1`` for true "
@@ -4049,7 +4074,7 @@ msgid ""
 msgstr ""
 
 msgid "Global configuration variables:"
-msgstr ""
+msgstr "Globala konfigurationsvariabler:"
 
 msgid ""
 ":c:var:`Py_DebugFlag`: Use :c:member:`PyConfig.parser_debug` or :c:func:"
@@ -4166,10 +4191,10 @@ msgid ""
 msgstr ""
 
 msgid "The bundled copy of ``libmpdec``."
-msgstr ""
+msgstr "Den medföljande kopian av ``libmpdec``."
 
 msgid "Pending removal in Python 3.18"
-msgstr ""
+msgstr "Väntar på borttagning i Python 3.18"
 
 msgid "Deprecated private functions (:gh:`128863`):"
 msgstr ""
@@ -4416,7 +4441,7 @@ msgid ""
 msgstr ""
 
 msgid "Porting to Python 3.13"
-msgstr ""
+msgstr "Portning till Python 3.13"
 
 msgid ""
 "This section lists previously described changes and other bugfixes that may "
@@ -4424,7 +4449,7 @@ msgid ""
 msgstr ""
 
 msgid "Changes in the Python API"
-msgstr ""
+msgstr "Ändringar i Python API"
 
 msgid ""
 ":ref:`PEP 667 <whatsnew313-locals-semantics>` introduces several changes to "
@@ -4505,7 +4530,7 @@ msgid ""
 msgstr ""
 
 msgid "Changes in the C API"
-msgstr ""
+msgstr "Förändringar i C API"
 
 msgid ""
 "``Python.h`` no longer includes the ``<ieeefp.h>`` standard header. It was "
@@ -4560,6 +4585,14 @@ msgid ""
 "    Py_TRASHCAN_SAFE_END\n"
 "}"
 msgstr ""
+"static void\n"
+"mytype_dealloc(mytype *p)\n"
+"{\n"
+"    PyObject_GC_UnTrack(p);\n"
+"    Py_TRASHCAN_SAFE_BEGIN(p);\n"
+"    ...\n"
+"    Py_TRASHCAN_SAFE_END\n"
+"}"
 
 msgid "should migrate to the new macros as follows::"
 msgstr ""
@@ -4574,6 +4607,14 @@ msgid ""
 "    Py_TRASHCAN_END\n"
 "}"
 msgstr ""
+"static void\n"
+"mytype_dealloc(mytype *p)\n"
+"{\n"
+"    PyObject_GC_UnTrack(p);\n"
+"    Py_TRASHCAN_BEGIN(p, mytype_dealloc)\n"
+"    ...\n"
+"    Py_TRASHCAN_END\n"
+"}"
 
 msgid ""
 "Note that ``Py_TRASHCAN_BEGIN`` has a second argument which should be the "
@@ -4627,72 +4668,82 @@ msgstr ""
 
 msgid "``_PyDict_Pop()``: :c:func:`PyDict_Pop` or :c:func:`PyDict_PopString`;"
 msgstr ""
+"``_PyDict_Pop()``: :c:func:`PyDict_Pop` eller :c:func:`PyDict_PopString`;"
 
 msgid "``_PyDict_GetItemWithError()``: :c:func:`PyDict_GetItemRef`;"
-msgstr ""
+msgstr "``_PyDict_GetItemWithError()``: :c:func:`PyDict_GetItemRef`;"
 
 msgid "``_PyErr_WriteUnraisableMsg()``:  :c:func:`PyErr_FormatUnraisable`;"
-msgstr ""
+msgstr "``_PyErr_WriteUnraisableMsg()``: :c:func:`PyErr_FormatUnraisable`;"
 
 msgid ""
 "``_PyEval_SetTrace()``: :c:func:`PyEval_SetTrace` or :c:func:"
 "`PyEval_SetTraceAllThreads`;"
 msgstr ""
+"``_PyEval_SetTrace()``: :c:func:`PyEval_SetTrace` eller :c:func:"
+"`PyEval_SetTraceAllThreads`;"
 
 msgid "``_PyList_Extend()``: :c:func:`PyList_Extend`;"
-msgstr ""
+msgstr "``_PyList_Extend()``: :c:func:`PyList_Extend`;"
 
 msgid "``_PyLong_AsInt()``: :c:func:`PyLong_AsInt`;"
-msgstr ""
+msgstr "``_PyLong_AsInt()``: :c:func:`PyLong_AsInt`;"
 
 msgid "``_PyMem_RawStrdup()``: ``strdup()``;"
-msgstr ""
+msgstr "``_PyMem_RawStrdup()``: ``strdup()``;"
 
 msgid "``_PyMem_Strdup()``: ``strdup()``;"
-msgstr ""
+msgstr "``_PyMem_Strdup()``: ``strdup()``;"
 
 msgid "``_PyObject_ClearManagedDict()``: :c:func:`PyObject_ClearManagedDict`;"
-msgstr ""
+msgstr "``_PyObject_ClearManagedDict()``: :c:func:`PyObject_ClearManagedDict`;"
 
 msgid "``_PyObject_VisitManagedDict()``: :c:func:`PyObject_VisitManagedDict`;"
-msgstr ""
+msgstr "``_PyObject_VisitManagedDict()``: :c:func:`PyObject_VisitManagedDict`;"
 
 msgid ""
 "``_PyThreadState_UncheckedGet()``: :c:func:`PyThreadState_GetUnchecked()`;"
 msgstr ""
+"``_PyThreadState_UncheckedGet()``: :c:func:`PyThreadState_GetUnchecked()`;"
 
 msgid "``_PyTime_AsSecondsDouble()``: :c:func:`PyTime_AsSecondsDouble`;"
-msgstr ""
+msgstr "``_PyTime_AsSecondsDouble()``: :c:func:`PyTime_AsSecondsDouble`;"
 
 msgid ""
 "``_PyTime_GetMonotonicClock()``: :c:func:`PyTime_Monotonic` or :c:func:"
 "`PyTime_MonotonicRaw`;"
 msgstr ""
+"``_PyTime_GetMonotonicClock()``: :c:func:`PyTime_Monotonic` eller :c:func:"
+"`PyTime_MonotonicRaw`;"
 
 msgid ""
 "``_PyTime_GetPerfCounter()``: :c:func:`PyTime_PerfCounter` or :c:func:"
 "`PyTime_PerfCounterRaw`;"
 msgstr ""
+"``_PyTime_GetPerfCounter()``: :c:func:`PyTime_PerfCounter` eller :c:func:"
+"`PyTime_PerfCounterRaw`;"
 
 msgid ""
 "``_PyTime_GetSystemClock()``: :c:func:`PyTime_Time` or :c:func:"
 "`PyTime_TimeRaw`;"
 msgstr ""
+"``_PyTime_GetSystemClock()``: :c:func:`PyTime_Time` eller :c:func:"
+"`PyTime_TimeRaw`;"
 
 msgid "``_PyTime_MAX``: :c:var:`PyTime_MAX`;"
-msgstr ""
+msgstr "``_PyTime_MAX``: :c:var:`PyTime_MAX`;"
 
 msgid "``_PyTime_MIN``: :c:var:`PyTime_MIN`;"
-msgstr ""
+msgstr "``_PyTime_MIN``: :c:var:`PyTime_MIN`;"
 
 msgid "``_PyTime_t``: :c:type:`PyTime_t`;"
-msgstr ""
+msgstr "``_PyTime_t``: :c:type:`PyTime_t`;"
 
 msgid "``_Py_HashPointer()``: :c:func:`Py_HashPointer`;"
-msgstr ""
+msgstr "``_Py_HashPointer()``: :c:func:`Py_HashPointer`;"
 
 msgid "``_Py_IsFinalizing()``: :c:func:`Py_IsFinalizing`."
-msgstr ""
+msgstr "``_Py_IsFinalizing()``: :c:func:`Py_IsFinalizing`."
 
 msgid ""
 "The `pythoncapi-compat project`_ can be used to get most of these new "
@@ -4700,7 +4751,7 @@ msgid ""
 msgstr ""
 
 msgid "Regression Test Changes"
-msgstr ""
+msgstr "Ändringar i regressionstest"
 
 msgid ""
 "Python built with :file:`configure` :option:`--with-pydebug` now supports a :"
