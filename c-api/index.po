@@ -23,11 +23,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Python/C API reference manual"
-msgstr ""
+msgstr "Referenshandbok för Python/C API"
 
 msgid ""
 "This manual documents the API used by C and C++ programmers who want to "
 "write extension modules or embed Python.  It is a companion to :ref:"
 "`extending-index`, which describes the general principles of extension "
 "writing but does not document the API functions in detail."
-msgstr ""
+msgstr "Den här handboken dokumenterar API:et som C- och C++-programmerare använder när de vill skriva utökningsmoduler eller bädda in Python. Den kompletterar :ref:`extending-index`, som beskriver de allmänna principerna för att skriva utökningar men inte dokumenterar API-funktionerna i detalj."
