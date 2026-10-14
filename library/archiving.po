@@ -23,11 +23,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Data Compression and Archiving"
-msgstr ""
+msgstr "Datakomprimering och arkivering"
 
 msgid ""
 "The modules described in this chapter support data compression with the "
 "zlib, gzip, bzip2, lzma, and zstd algorithms, and the creation of ZIP- and "
 "tar-format archives.  See also :ref:`archiving-operations` provided by the :"
 "mod:`shutil` module."
-msgstr ""
+msgstr "Modulerna som beskrivs i detta kapitel har stöd för datakomprimering med algoritmerna zlib, gzip, bzip2, lzma och zstd samt för att skapa arkiv i ZIP- och tar-format. Se även :ref:`archiving-operations` som tillhandahålls av modulen :mod:`shutil`."
