@@ -2836,7 +2836,7 @@ msgid ""
 msgstr ""
 
 msgid "soft deprecated"
-msgstr ""
+msgstr "mjukt föråldrad"
 
 msgid ""
 "A soft deprecated API should not be used in new code, but it is safe for "
