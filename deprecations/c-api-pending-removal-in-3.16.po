@@ -23,7 +23,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Pending removal in Python 3.16"
-msgstr ""
+msgstr "Planerat för borttagning i Python 3.16"
 
 msgid "The bundled copy of ``libmpdec``."
-msgstr ""
+msgstr "Den medföljande kopian av ``libmpdec``."
