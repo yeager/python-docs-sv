@@ -23,12 +23,14 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Importing Modules"
-msgstr ""
+msgstr "Importera moduler"
 
 msgid ""
 "The modules described in this chapter provide new ways to import other "
 "Python modules and hooks for customizing the import process."
 msgstr ""
+"Modulerna som beskrivs i detta kapitel ger nya sätt att importera andra "
+"moduler i Python samt krokar för att anpassa importprocessen."
 
 msgid "The full list of modules described in this chapter is:"
-msgstr ""
+msgstr "Hela listan över moduler som beskrivs i detta kapitel är:"
