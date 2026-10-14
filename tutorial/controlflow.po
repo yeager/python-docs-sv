@@ -172,7 +172,7 @@ msgstr ""
 "        active_users[user] = status"
 
 msgid "The :func:`range` Function"
-msgstr "Funktionen :func:`range"
+msgstr "Funktionen :func:`range`"
 
 msgid ""
 "If you do need to iterate over a sequence of numbers, the built-in function :"
@@ -1029,7 +1029,7 @@ msgstr ""
 "De faktiska parametrarna (argumenten) till ett funktionsanrop introduceras i "
 "den lokala symboltabellen för den anropade funktionen när den anropas; "
 "argument skickas alltså med *call by value* (där *värdet* alltid är en "
-"*referens* till ett objekt, inte objektets värde). [När en funktion anropar "
+"*referens* till ett objekt, inte objektets värde). [#]_ När en funktion anropar "
 "en annan funktion, eller anropar sig själv rekursivt, skapas en ny lokal "
 "symboltabell för det anropet."
 
