@@ -23,10 +23,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Multimedia Services"
-msgstr ""
+msgstr "Multimediatjänster"
 
 msgid ""
 "The modules described in this chapter implement various algorithms or "
 "interfaces that are mainly useful for multimedia applications.  They are "
 "available at the discretion of the installation.  Here's an overview:"
-msgstr ""
+msgstr "Modulerna i detta kapitel implementerar olika algoritmer eller gränssnitt som främst är användbara för multimedieprogram. Deras tillgänglighet beror på installationen. Här är en översikt:"
