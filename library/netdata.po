@@ -23,9 +23,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Internet Data Handling"
-msgstr ""
+msgstr "Internetdatahantering"
 
 msgid ""
 "This chapter describes modules which support handling data formats commonly "
 "used on the internet."
 msgstr ""
+"Detta kapitel beskriver moduler som stöder hantering av dataformat som ofta "
+"används på internet."
