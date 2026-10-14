@@ -23,9 +23,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Argument Clinic How-To"
-msgstr ""
+msgstr "Guide till Argument Clinic"
 
 msgid ""
 "The Argument Clinic How-TO has been moved to the `Python Developer's Guide "
 "<https://devguide.python.org/development-tools/clinic/>`__."
 msgstr ""
+"Guiden till Argument Clinic har flyttats till `Pythons utvecklarguide "
+"<https://devguide.python.org/development-tools/clinic/>`__."
