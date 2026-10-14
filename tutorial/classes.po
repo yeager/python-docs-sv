@@ -843,7 +843,7 @@ msgid ""
 "For example, the *tricks* list in the following code should not be used as a "
 "class variable because just a single list would be shared by all *Dog* "
 "instances::"
-msgstr ""
+msgstr "Delade data kan, som vi diskuterade i :ref:`tut-object`, få oväntade följder för :term:`mutable` objekt som listor och ordböcker. Listan *tricks* i följande kod bör till exempel inte användas som klassvariabel, eftersom en enda lista annars skulle delas av alla instanser av *Dog*::"
 
 msgid ""
 "class Dog:\n"
