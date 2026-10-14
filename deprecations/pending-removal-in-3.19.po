@@ -23,13 +23,16 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Pending removal in Python 3.19"
-msgstr ""
+msgstr "Planerat för borttagning i Python 3.19"
 
 msgid ":mod:`ctypes`:"
-msgstr ""
+msgstr ":mod:`ctypes`:"
 
 msgid ""
 "Implicitly switching to the MSVC-compatible struct layout by setting :attr:"
 "`~ctypes.Structure._pack_` but not :attr:`~ctypes.Structure._layout_` on non-"
 "Windows platforms."
 msgstr ""
+"Implicit växling till en strukturlayout som är kompatibel med MSVC genom "
+"att ange :attr:`~ctypes.Structure._pack_`, men inte "
+":attr:`~ctypes.Structure._layout_`, på plattformar som inte är Windows."
