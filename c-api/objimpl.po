@@ -23,9 +23,9 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Object Implementation Support"
-msgstr ""
+msgstr "Stöd för objektimplementering"
 
 msgid ""
 "This chapter describes the functions, types, and macros used when defining "
 "new object types."
-msgstr ""
+msgstr "Det här kapitlet beskriver funktioner, typer och makron för att definiera nya objekttyper."
