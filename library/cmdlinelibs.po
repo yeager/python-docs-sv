@@ -23,12 +23,14 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Command-line interface libraries"
-msgstr ""
+msgstr "Bibliotek för kommandoradsgränssnitt"
 
 msgid ""
 "The modules described in this chapter assist with implementing command line "
 "and terminal interfaces for applications."
 msgstr ""
+"Modulerna som beskrivs i detta kapitel hjälper till vid implementering av "
+"kommandoradsgränssnitt och terminalgränssnitt för program."
 
 msgid "Here's an overview:"
-msgstr ""
+msgstr "Här följer en översikt:"
