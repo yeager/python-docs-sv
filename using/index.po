@@ -23,10 +23,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Python Setup and Usage"
-msgstr ""
+msgstr "Installation och användning av Python"
 
 msgid ""
 "This part of the documentation is devoted to general information on the "
 "setup of the Python environment on different platforms, the invocation of "
 "the interpreter and things that make working with Python easier."
-msgstr ""
+msgstr "Den här delen av dokumentationen innehåller allmän information om hur Python-miljön konfigureras på olika plattformar, hur tolken startas och sådant som underlättar arbetet med Python."
