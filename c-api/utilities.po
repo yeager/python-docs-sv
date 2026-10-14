@@ -23,11 +23,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Utilities"
-msgstr ""
+msgstr "Hjälpfunktioner"
 
 msgid ""
 "The functions in this chapter perform various utility tasks, ranging from "
 "helping C code be more portable across platforms, using Python modules from "
 "C, and parsing function arguments and constructing Python values from C "
 "values."
-msgstr ""
+msgstr "Funktionerna i detta kapitel utför olika hjälpuppgifter, från att göra C-kod mer portabel mellan plattformar till att använda Python-moduler från C samt tolka funktionsargument och konstruera Python-värden från C-värden."
